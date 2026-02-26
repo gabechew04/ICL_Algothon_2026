@@ -12,6 +12,7 @@ build/
 .pytest_cache/
 
 # Virtual environments
+algothon.venv/
 .venv/
 venv/
 env/
