@@ -1,11 +1,25 @@
-# ignore Python virtual environment
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environments
 algothon.venv/
 .venv/
 venv/
 env/
 
-# ignore Python bytecode
-__pycache__/
-
-# ignore notebook checkpoints
+# Jupyter notebooks checkpoints
 .ipynb_checkpoints/
+
+# OS artefacts
+.DS_Store
+Thumbs.db
