@@ -1,0 +1,11 @@
+# ignore Python virtual environment
+algothon.venv/
+.venv/
+venv/
+env/
+
+# ignore Python bytecode
+__pycache__/
+
+# ignore notebook checkpoints
+.ipynb_checkpoints/
