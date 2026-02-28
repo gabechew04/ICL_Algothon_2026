@@ -1,11 +1,42 @@
-"""
-run.py — Entry point. Configure credentials and session window, then start the bot.
+"""run.py — Bot entrypoint.
+
+Configures logging (console + file), session window and credentials,
+then starts the bot.
 """
 
+import logging
+from logging.handlers import RotatingFileHandler
+from pathlib import Path
 from datetime import datetime, timedelta, timezone
+
 from bot import AlgothonBot
 
-# ── Config ────────────────────────────────────────────────────────────────────
+# ── Logging ───────────────────────────────────────────────────────────────────
+
+LOGS_DIR = Path(__file__).resolve().parents[2] / "logs"
+LOGS_DIR.mkdir(parents=True, exist_ok=True)
+LOG_FILE = LOGS_DIR / "bot_run.log"
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+fmt = logging.Formatter(
+    "%(asctime)s [%(levelname)s] %(name)s: %(message)s", datefmt="%H:%M:%S"
+)
+
+# Console handler
+ch = logging.StreamHandler()
+ch.setLevel(logging.INFO)
+ch.setFormatter(fmt)
+logger.addHandler(ch)
+
+# Rotating file handler (~1 MB per file, keep a few backups)
+fh = RotatingFileHandler(LOG_FILE, maxBytes=1_000_000, backupCount=3, encoding="utf-8")
+fh.setLevel(logging.INFO)
+fh.setFormatter(fmt)
+logger.addHandler(fh)
+
+# ── Config ───────────────────────────────────────────────────────────────────
 
 EXCHANGE_URL    = "http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/"
 USERNAME        = "testhamza1"

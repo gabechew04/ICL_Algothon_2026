@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Trade Log</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1e1e1e; color: #fff; padding: 20px; }
+        select { margin-bottom: 20px; padding: 10px; font-size: 16px; background: #333; color: white; border: 1px solid #555; }
+        table { border-collapse: collapse; width: 100%; max-width: 800px; }
+        th, td { padding: 10px; border-bottom: 1px solid #444; text-align: left; }
+        th { background: #2d2d2d; }
+        .BUY { color: #4cc38a; font-weight: bold; }
+        .SELL { color: #f45b5b; font-weight: bold; }
+    </style>
+    <script>
+        function filterTable() {
+            const filter = document.getElementById('productDropdown').value;
+            const rows = document.querySelectorAll('tr.trade-row');
+            rows.forEach(row => {
+                if (filter === 'ALL' || row.dataset.product === filter) row.style.display = '';
+                else row.style.display = 'none';
+            });
+        }
+    </script>
+</head>
+<body>
+    <h2>Live Trade Tracker</h2>
+    <!-- Dropdown for filtering -->
+    <select id="productDropdown" onchange="filterTable()">
+        <option value="ALL">Show All Instruments</option>
+        <option value="TIDE_SPOT">TIDE_SPOT</option>
+        <option value="TIDE_SWING">TIDE_SWING</option>
+        <option value="WX_SPOT">WX_SPOT</option>
+        <option value="WX_SUM">WX_SUM</option>
+        <option value="LHR_COUNT">LHR_COUNT</option>
+        <option value="LHR_INDEX">LHR_INDEX</option>
+        <option value="LON_ETF">LON_ETF</option>
+        <option value="LON_FLY">LON_FLY</option>
+    </select>
+    <table>
+        <thead><tr><th>Time</th><th>Product</th><th>Side</th><th>Volume</th><th>Price</th></tr></thead>
+        <tbody>
+        <tr class="trade-row" data-product="TIDE_SPOT"><td>15:17:12</td><td>TIDE_SPOT</td><td class="SELL">SELL</td><td>3</td><td>2511</td></tr>
+        <tr class="trade-row" data-product="TIDE_SPOT"><td>15:17:13</td><td>TIDE_SPOT</td><td class="BUY">BUY</td><td>3</td><td>2453</td></tr>
+        <tr class="trade-row" data-product="TIDE_SPOT"><td>15:17:13</td><td>TIDE_SPOT</td><td class="BUY">BUY</td><td>1</td><td>2453</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:21</td><td>LON_FLY</td><td class="SELL">SELL</td><td>2</td><td>6210</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:23</td><td>LON_FLY</td><td class="SELL">SELL</td><td>3</td><td>59380</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:23</td><td>LON_FLY</td><td class="SELL">SELL</td><td>1</td><td>59380</td></tr>
+        <tr class="trade-row" data-product="WX_SPOT"><td>15:17:35</td><td>WX_SPOT</td><td class="SELL">SELL</td><td>5.0</td><td>4433</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:36</td><td>LON_FLY</td><td class="SELL">SELL</td><td>2</td><td>6213</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:37</td><td>LON_FLY</td><td class="SELL">SELL</td><td>1</td><td>59382</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:37</td><td>LON_FLY</td><td class="SELL">SELL</td><td>2</td><td>59382</td></tr>
+        <tr class="trade-row" data-product="LON_FLY"><td>15:17:37</td><td>LON_FLY</td><td class="SELL">SELL</td><td>1</td><td>59382</td></tr>

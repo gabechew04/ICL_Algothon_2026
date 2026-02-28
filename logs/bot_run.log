@@ -1,0 +1,1045 @@
+15:07:56 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:07:56 [INFO] algothon.bot:   ALGOTHON BOT STARTING
+15:07:56 [INFO] algothon.bot:   Session: 2026-02-28 12:00:00+00:00 → 2026-03-01 12:00:00+00:00
+15:07:56 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:07:56 [INFO] algothon.bot: Products discovered: ['TIDE_SPOT', 'TIDE_SWING', 'WX_SPOT', 'WX_SUM', 'LHR_COUNT', 'LHR_INDEX', 'LON_ETF', 'LON_FLY']
+15:07:56 [INFO] algothon.data: Weather: 192 rows fetched
+15:07:59 [INFO] algothon.data: Thames: 200 readings fetched
+15:07:59 [INFO] algothon.data: Flights: 1616 arrivals, 1479 departures
+15:07:59 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:07:59 [INFO] algothon.bot:   LHR_COUNT    FV=    3095  conf=0.50
+15:07:59 [INFO] algothon.bot:   LHR_INDEX    FV=     212  conf=0.30
+15:07:59 [INFO] algothon.bot:   LON_ETF      FV=   10003  conf=0.26
+15:07:59 [INFO] algothon.bot:   LON_FLY      FV=    6007  conf=0.15
+15:07:59 [INFO] algothon.bot:   TIDE_SPOT    FV=    2480  conf=0.26
+15:07:59 [INFO] algothon.bot:   TIDE_SWING   FV=     304  conf=0.36
+15:07:59 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:07:59 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:07:59 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:07:59 [INFO] algothon.bot:   LHR_COUNT    FV=    3095  conf=0.50
+15:07:59 [INFO] algothon.bot:   LHR_INDEX    FV=     212  conf=0.30
+15:07:59 [INFO] algothon.bot:   LON_ETF      FV=   10003  conf=0.26
+15:07:59 [INFO] algothon.bot:   LON_FLY      FV=    5994  conf=0.15
+15:07:59 [INFO] algothon.bot:   TIDE_SPOT    FV=    2480  conf=0.26
+15:07:59 [INFO] algothon.bot:   TIDE_SWING   FV=     304  conf=0.36
+15:07:59 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:07:59 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:08:00 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:08:00 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2452; TIDE_SPOT SELL x4 @ 2512; TIDE_SPOT BUY x2 @ 2423; TIDE_SPOT SELL x2 @ 2542
+15:08:00 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:08:01 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:02 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:08:03 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x3 @ 4419; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4411; WX_SPOT SELL x2 @ 4443
+15:08:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:08:04 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3338; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3371
+15:08:04 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:08:04 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:08:04 [INFO] algothon.bot:   ALGOTHON BOT STARTING
+15:08:04 [INFO] algothon.bot:   Session: 2026-02-28 12:00:00+00:00 → 2026-03-01 12:00:00+00:00
+15:08:04 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:08:05 [INFO] algothon.bot: Products discovered: ['TIDE_SPOT', 'TIDE_SWING', 'WX_SPOT', 'WX_SUM', 'LHR_COUNT', 'LHR_INDEX', 'LON_ETF', 'LON_FLY']
+15:08:05 [INFO] algothon.data: Weather: 192 rows fetched
+15:08:05 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3083; LHR_COUNT SELL x1 @ 3124; LHR_COUNT BUY x2 @ 3063; LHR_COUNT SELL x1 @ 3144
+15:08:05 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:08:06 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:08:07 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:08:08 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9975; LON_ETF SELL x1 @ 10074; LON_ETF BUY x2 @ 9926; LON_ETF SELL x1 @ 10123
+15:08:08 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+15:08:08 [INFO] algothon.data: Thames: 200 readings fetched
+15:08:09 [INFO] algothon.data: Flights: 1616 arrivals, 1479 departures
+15:08:09 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:08:09 [INFO] algothon.bot:   LHR_COUNT    FV=    3095  conf=0.50
+15:08:09 [INFO] algothon.bot:   LHR_INDEX    FV=     212  conf=0.30
+15:08:09 [INFO] algothon.bot:   LON_ETF      FV=   10003  conf=0.26
+15:08:09 [INFO] algothon.bot:   LON_FLY      FV=    6006  conf=0.15
+15:08:09 [INFO] algothon.bot:   TIDE_SPOT    FV=    2480  conf=0.26
+15:08:09 [INFO] algothon.bot:   TIDE_SWING   FV=     304  conf=0.36
+15:08:09 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:08:09 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:08:09 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:08:09 [INFO] algothon.bot:   LHR_COUNT    FV=    3095  conf=0.50
+15:08:09 [INFO] algothon.bot:   LHR_INDEX    FV=     212  conf=0.30
+15:08:09 [INFO] algothon.bot:   LON_ETF      FV=   10003  conf=0.26
+15:08:09 [INFO] algothon.bot:   LON_FLY      FV=    6007  conf=0.15
+15:08:09 [INFO] algothon.bot:   TIDE_SPOT    FV=    2480  conf=0.26
+15:08:09 [INFO] algothon.bot:   TIDE_SWING   FV=     304  conf=0.36
+15:08:09 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:08:09 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:08:09 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9877; LON_ETF SELL x1 @ 10172; LON_FLY BUY x2 @ 5927; LON_FLY SELL x3 @ 6059
+15:08:09 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+15:08:09 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:08:09 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2451; TIDE_SPOT SELL x4 @ 2511; TIDE_SPOT BUY x2 @ 2422; TIDE_SPOT SELL x2 @ 2540
+15:08:09 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:08:10 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5862; LON_FLY SELL x1 @ 6124
+15:08:10 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:08:10 [INFO] algothon.bot: Positions: LHR_COUNT=-74  LON_FLY=+1  LHR_INDEX=-45  TIDE_SWING=-100  WX_SUM=+35  TIDE_SPOT=-14  WX_SPOT=+26  LON_ETF=-74 | PnL: total=+0.0 (unreal=+0.0, real=+0.0)
+15:08:10 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:11 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:08:11 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:08:11 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2450; TIDE_SPOT SELL x5 @ 2510; TIDE_SPOT BUY x2 @ 2420; TIDE_SPOT SELL x2 @ 2539
+15:08:12 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:08:12 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x3 @ 4418; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4411; WX_SPOT SELL x2 @ 4443
+15:08:12 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:08:13 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:13 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:08:13 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3338; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3371
+15:08:13 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:08:14 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x3 @ 4418; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4411; WX_SPOT SELL x2 @ 4443
+15:08:14 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:08:14 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3083; LHR_COUNT SELL x1 @ 3124; LHR_COUNT BUY x2 @ 3063; LHR_COUNT SELL x1 @ 3144
+15:08:14 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:08:15 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3338; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3371
+15:08:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:08:15 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:08:16 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:08:16 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3083; LHR_COUNT SELL x1 @ 3124; LHR_COUNT BUY x2 @ 3063; LHR_COUNT SELL x1 @ 3144
+15:08:16 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:08:17 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9976; LON_ETF SELL x1 @ 10075; LON_ETF BUY x2 @ 9927; LON_ETF SELL x1 @ 10124
+15:08:17 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+15:08:17 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:08:17 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:08:18 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9878; LON_ETF SELL x1 @ 10173; LON_FLY BUY x2 @ 5941; LON_FLY SELL x3 @ 6072
+15:08:18 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+15:08:18 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9976; LON_ETF SELL x1 @ 10075; LON_ETF BUY x2 @ 9927; LON_ETF SELL x1 @ 10124
+15:08:19 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+15:08:19 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5875; LON_FLY SELL x1 @ 6138
+15:08:19 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:08:19 [INFO] algothon.bot: Positions: LHR_COUNT=-69  LON_FLY=+1  LHR_INDEX=-47  TIDE_SWING=-100  WX_SUM=+36  TIDE_SPOT=-7  WX_SPOT=+30  LON_ETF=-76 | PnL: total=+0.0 (unreal=+0.0, real=+0.0)
+15:08:20 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9878; LON_ETF SELL x1 @ 10173; LON_FLY BUY x3 @ 5929; LON_FLY SELL x2 @ 6061
+15:08:20 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+15:08:20 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:08:20 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2449; TIDE_SPOT SELL x5 @ 2509; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:20 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:08:21 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5863; LON_FLY SELL x1 @ 6126
+15:08:21 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:08:21 [INFO] algothon.bot: Positions: LHR_COUNT=-69  LON_FLY=-3  LHR_INDEX=-47  TIDE_SWING=-100  WX_SUM=+36  WX_SPOT=+30  LON_ETF=-77 | PnL: total=+0.0 (unreal=+0.0, real=+0.0)
+15:08:21 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:22 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:08:22 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:08:22 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2449; TIDE_SPOT SELL x5 @ 2509; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:22 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:08:23 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x3 @ 4418; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4410; WX_SPOT SELL x2 @ 4443
+15:08:23 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:08:23 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2152
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2153
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 4x TIDE_SPOT @ 2153
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2153
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 3x WX_SPOT @ 4414
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 4411
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337.0
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 3124
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 3144
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 4x LHR_COUNT @ 3083
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 272
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 272
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83099
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83099
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 3083
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3063
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 150026
+15:08:23 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 114570
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83099
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2152
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2152
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 4x TIDE_SPOT @ 2152
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2451
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 144850
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 4x TIDE_SPOT @ 2152
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 3x WX_SPOT @ 2136
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 2136
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337.0
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 2136
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 2x WX_SPOT @ 2136
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 2136
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2450
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2420
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 20946
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 20946
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337.0
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 272
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 272
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 5x LHR_COUNT @ 3083
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3063
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 5x LHR_COUNT @ 1283
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 1283
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83099
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83098
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 3124
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 3144
+15:08:23 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 3063
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 270
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 270
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83098
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 143576
+15:08:23 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 139721
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 141659
+15:08:23 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:23 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 141659
+15:08:24 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 142628
+15:08:24 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3360
+15:08:24 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:08:24 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3370
+15:08:24 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:08:25 [INFO] algothon.bot: FILL: BOUGHT 3x WX_SPOT @ 4418
+15:08:25 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x3 @ 4418; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4410; WX_SPOT SELL x2 @ 4443
+15:08:25 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:08:25 [INFO] algothon.bot: FILL: BOUGHT 3x WX_SPOT @ 4418
+15:08:25 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 4410
+15:08:25 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3082; LHR_COUNT SELL x2 @ 3123; LHR_COUNT BUY x2 @ 3062; LHR_COUNT SELL x1 @ 3143
+15:08:25 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:08:25 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 649
+15:08:25 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 650
+15:08:25 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:08:26 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3370
+15:08:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:08:26 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 195; LHR_INDEX SELL x1 @ 246; LHR_INDEX BUY x1 @ 170; LHR_INDEX SELL x1 @ 271
+15:08:27 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3082
+15:08:27 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3062
+15:08:27 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:08:27 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 271
+15:08:27 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 271
+15:08:27 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3082; LHR_COUNT SELL x2 @ 3123; LHR_COUNT BUY x2 @ 3062; LHR_COUNT SELL x1 @ 3143
+15:08:28 [INFO] algothon.bot: FILL: BOUGHT 5x LHR_COUNT @ 14
+15:08:28 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 14
+15:08:28 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:08:28 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9978; LON_ETF SELL x1 @ 10077; LON_ETF BUY x2 @ 9929; LON_ETF SELL x1 @ 10126
+15:08:28 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83098
+15:08:28 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:28 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+15:08:29 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 195; LHR_INDEX SELL x1 @ 246; LHR_INDEX BUY x1 @ 170; LHR_INDEX SELL x1 @ 271
+15:08:29 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 271
+15:08:29 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 271
+15:08:29 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:08:29 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9880; LON_ETF SELL x1 @ 10175; LON_FLY BUY x3 @ 5944; LON_FLY SELL x2 @ 6076
+15:08:29 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:29 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 142629
+15:08:29 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 142628
+15:08:29 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+15:08:30 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 5944
+15:08:30 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9978; LON_ETF SELL x1 @ 10077; LON_ETF BUY x2 @ 9929; LON_ETF SELL x1 @ 10126
+15:08:30 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:30 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:30 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+15:08:30 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5878; LON_FLY SELL x1 @ 6141
+15:08:31 [INFO] algothon.bot: FILL: BOUGHT 1x LON_FLY @ 14
+15:08:31 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:08:31 [INFO] algothon.bot: Positions: LHR_COUNT=-46  LON_FLY=-14  LHR_INDEX=-55  TIDE_SWING=-100  WX_SUM=+41  TIDE_SPOT=+17  WX_SPOT=+47  LON_ETF=-86 | PnL: total=-5430990.8 (unreal=-5430990.8, real=+0.0)
+15:08:31 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:08:31 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9880; LON_ETF SELL x1 @ 10175; LON_FLY BUY x3 @ 5932; LON_FLY SELL x2 @ 6063
+15:08:31 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83097
+15:08:31 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 14
+15:08:31 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+15:08:32 [INFO] algothon.arb: ARB: Sell ETF @ 83096.0, Buy components — edge=77544
+15:08:32 [INFO] algothon.options: OPT: Buy FLY @ 14.0 (model=6013)
+15:08:32 [INFO] algothon.bot: Prepared 39 candidate orders this tick
+15:08:32 [INFO] algothon.bot: Sending batch 1/10 (4 orders): TIDE_SPOT BUY x4 @ 2449; TIDE_SPOT SELL x5 @ 2509; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:32 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/10
+15:08:32 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5866; LON_FLY SELL x1 @ 6129
+15:08:33 [INFO] algothon.bot: Sending batch 2/10 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:33 [INFO] algothon.bot: FILL: BOUGHT 1x LON_FLY @ 14
+15:08:33 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:08:33 [INFO] algothon.bot: Positions: LHR_COUNT=-43  LON_FLY=-12  LHR_INDEX=-57  TIDE_SWING=-100  WX_SUM=+40  TIDE_SPOT=+15  WX_SPOT=+49  LON_ETF=-93 | PnL: total=-6231338.5 (unreal=-6231338.5, real=+0.0)
+15:08:33 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/10
+15:08:34 [INFO] algothon.bot: Sending batch 3/10 (4 orders): WX_SPOT BUY x2 @ 4418; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4410; WX_SPOT SELL x2 @ 4442
+15:08:34 [INFO] algothon.arb: ARB: Sell ETF @ 83096.0, Buy components — edge=77546
+15:08:34 [INFO] algothon.options: OPT: Buy FLY @ 14.0 (model=6007)
+15:08:34 [INFO] algothon.bot: Prepared 39 candidate orders this tick
+15:08:34 [INFO] algothon.bot: Sending batch 1/10 (4 orders): TIDE_SPOT BUY x4 @ 2449; TIDE_SPOT SELL x5 @ 2509; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:34 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3076
+15:08:34 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3077
+15:08:34 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3077
+15:08:34 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/10
+15:08:34 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/10
+15:08:35 [INFO] algothon.bot: Sending batch 4/10 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3370
+15:08:35 [INFO] algothon.bot: Sending batch 2/10 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:36 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/10
+15:08:36 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/10
+15:08:36 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:08:37 [INFO] algothon.bot: Sending batch 5/10 (4 orders): LHR_COUNT BUY x5 @ 3080; LHR_COUNT SELL x2 @ 3121; LHR_COUNT BUY x2 @ 3060; LHR_COUNT SELL x1 @ 3141
+15:08:37 [INFO] algothon.bot: Sending batch 3/10 (4 orders): WX_SPOT BUY x2 @ 4418; WX_SPOT SELL x5 @ 4435; WX_SPOT BUY x1 @ 4410; WX_SPOT SELL x2 @ 4442
+15:08:37 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 15
+15:08:37 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 16
+15:08:37 [INFO] algothon.bot: FILL: BOUGHT 4x LHR_COUNT @ 16
+15:08:37 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 1281
+15:08:37 [INFO] algothon.bot: FILL: BOUGHT 2x WX_SPOT @ 3742
+15:08:37 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/10
+15:08:37 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/10
+15:08:37 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3742
+15:08:38 [INFO] algothon.bot: Sending batch 6/10 (4 orders): LHR_INDEX BUY x3 @ 195; LHR_INDEX SELL x1 @ 246; LHR_INDEX BUY x1 @ 170; LHR_INDEX SELL x1 @ 271
+15:08:38 [INFO] algothon.bot: Sending batch 4/10 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3327; WX_SUM SELL x1 @ 3370
+15:08:38 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 269
+15:08:38 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/10
+15:08:38 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/10
+15:08:39 [INFO] algothon.bot: Sending batch 7/10 (4 orders): LON_ETF BUY x5 @ 9980; LON_ETF SELL x1 @ 10079; LON_ETF BUY x2 @ 9931; LON_ETF SELL x1 @ 10128
+15:08:39 [INFO] algothon.bot: Sending batch 5/10 (4 orders): LHR_COUNT BUY x5 @ 3080; LHR_COUNT SELL x2 @ 3121; LHR_COUNT BUY x2 @ 3060; LHR_COUNT SELL x1 @ 3141
+15:08:39 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 649
+15:08:39 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:39 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:39 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/10
+15:08:39 [INFO] algothon.bot: FILL: BOUGHT 3x LHR_COUNT @ 649
+15:08:39 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/10
+15:08:40 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3080
+15:08:40 [INFO] algothon.bot: Sending batch 6/10 (4 orders): LHR_INDEX BUY x3 @ 195; LHR_INDEX SELL x1 @ 246; LHR_INDEX BUY x1 @ 170; LHR_INDEX SELL x1 @ 271
+15:08:40 [INFO] algothon.bot: Sending batch 8/10 (4 orders): LON_ETF BUY x1 @ 9882; LON_ETF SELL x1 @ 10177; LON_FLY BUY x3 @ 5943; LON_FLY SELL x2 @ 6075
+15:08:41 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 268
+15:08:41 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/10
+15:08:41 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:41 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 14
+15:08:41 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/10
+15:08:42 [INFO] algothon.bot: Sending batch 7/10 (4 orders): LON_ETF BUY x5 @ 9980; LON_ETF SELL x1 @ 10079; LON_ETF BUY x2 @ 9931; LON_ETF SELL x1 @ 10128
+15:08:42 [INFO] algothon.bot: Sending batch 9/10 (4 orders): LON_FLY BUY x1 @ 5878; LON_FLY SELL x1 @ 6140; LON_ETF SELL x3 @ 83096.0; TIDE_SPOT BUY x3 @ 2460.0
+15:08:42 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:42 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:42 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 9/10
+15:08:42 [INFO] algothon.bot: FILL: BOUGHT 1x LON_FLY @ 14
+15:08:42 [INFO] algothon.bot: FILL: BOUGHT 1x TIDE_SPOT @ 2459
+15:08:42 [INFO] algothon.bot: FILL: BOUGHT 2x TIDE_SPOT @ 2460
+15:08:42 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/10
+15:08:42 [INFO] algothon.bot: FILL: SOLD  3x LON_ETF @ 83096
+15:08:42 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:08:43 [INFO] algothon.bot: Sending batch 10/10 (3 orders): WX_SPOT BUY x3 @ 3077.0; LHR_COUNT BUY x3 @ 15.0; LON_FLY BUY x3 @ 14.0
+15:08:43 [INFO] algothon.bot: Sending batch 8/10 (4 orders): LON_ETF BUY x1 @ 9882; LON_ETF SELL x1 @ 10177; LON_FLY BUY x3 @ 5929; LON_FLY SELL x2 @ 6061
+15:08:44 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 14
+15:08:44 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:44 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 10/10
+15:08:44 [INFO] algothon.bot: Positions: LHR_COUNT=-33  LON_FLY=-1  LHR_INDEX=-56  TIDE_SWING=-100  WX_SUM=+41  TIDE_SPOT=+6  WX_SPOT=+51  LON_ETF=-92 | PnL: total=-9336332.6 (unreal=-9336332.6, real=+0.0)
+15:08:44 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 14
+15:08:44 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/10
+15:08:45 [INFO] algothon.bot: Sending batch 9/10 (4 orders): LON_FLY BUY x1 @ 5864; LON_FLY SELL x1 @ 6126; LON_ETF SELL x3 @ 83096.0; TIDE_SPOT BUY x3 @ 2460.0
+15:08:45 [INFO] algothon.arb: ARB: Sell ETF @ 83096.0, Buy components — edge=74999
+15:08:45 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 9/10
+15:08:45 [INFO] algothon.options: OPT: Buy FLY @ 7.0 (model=6004)
+15:08:45 [INFO] algothon.bot: FILL: BOUGHT 1x LON_FLY @ 9
+15:08:45 [INFO] algothon.bot: Prepared 39 candidate orders this tick
+15:08:45 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83099
+15:08:45 [INFO] algothon.bot: Sending batch 1/10 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:45 [INFO] algothon.bot: FILL: SOLD  1x LON_ETF @ 83096
+15:08:45 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/10
+15:08:46 [INFO] algothon.bot: Sending batch 10/10 (3 orders): WX_SPOT BUY x3 @ 3076.0; LHR_COUNT BUY x3 @ 14.0; LON_FLY BUY x3 @ 14.0
+15:08:46 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 14
+15:08:46 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 10/10
+15:08:46 [INFO] algothon.bot: Positions: LHR_COUNT=-43  LON_FLY=+3  LHR_INDEX=-56  TIDE_SWING=-100  WX_SUM=+41  TIDE_SPOT=+9  WX_SPOT=+47  LON_ETF=-95 | PnL: total=-3223180.3 (unreal=-3223180.3, real=+0.0)
+15:08:46 [INFO] algothon.bot: Sending batch 2/10 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:46 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/10
+15:08:47 [INFO] algothon.options: OPT: Buy FLY @ 14.0 (model=6000)
+15:08:47 [INFO] algothon.bot: Prepared 35 candidate orders this tick
+15:08:47 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:47 [INFO] algothon.bot: Sending batch 3/10 (4 orders): WX_SPOT BUY x2 @ 4417; WX_SPOT SELL x5 @ 4434; WX_SPOT BUY x1 @ 4410; WX_SPOT SELL x2 @ 4442
+15:08:48 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:08:48 [INFO] algothon.bot: FILL: BOUGHT 2x WX_SPOT @ 3908
+15:08:48 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3908
+15:08:48 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/10
+15:08:49 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:08:49 [INFO] algothon.bot: Sending batch 4/10 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:08:49 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:08:49 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/10
+15:08:50 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x2 @ 4417; WX_SPOT SELL x5 @ 4434; WX_SPOT BUY x1 @ 4410; WX_SPOT SELL x2 @ 4442
+15:08:50 [INFO] algothon.bot: Sending batch 5/10 (4 orders): LHR_COUNT BUY x5 @ 3078; LHR_COUNT SELL x3 @ 3119; LHR_COUNT BUY x2 @ 3058; LHR_COUNT SELL x1 @ 3139
+15:08:50 [INFO] algothon.bot: FILL: BOUGHT 2x WX_SPOT @ 3908
+15:08:50 [INFO] algothon.bot: FILL: BOUGHT 4x LHR_COUNT @ 953
+15:08:50 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 953
+15:08:50 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 953
+15:08:50 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 4074
+15:08:50 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:08:50 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/10
+15:08:51 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3360; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:08:51 [INFO] algothon.bot: Sending batch 6/10 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:08:51 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 264
+15:08:51 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/10
+15:08:51 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:08:52 [INFO] algothon.bot: Sending batch 7/10 (4 orders): LON_ETF BUY x5 @ 9982; LON_ETF SELL x1 @ 10081; LON_ETF BUY x2 @ 9933; LON_ETF SELL x1 @ 10130
+139
+15:08:52 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 953
+15:08:52 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:08:52 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/10
+15:08:53 [INFO] algothon.bot: FILL: BOUGHT 3x LHR_COUNT @ 3078
+15:08:53 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3058
+15:08:53 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:08:53 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:08:53 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:08:54 [INFO] algothon.bot: FILL: SOLD  3x LON_FLY @ 74699
+15:08:54 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 264
+15:08:54 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:08:54 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/10
+15:08:55 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:08:55 [INFO] algothon.bot: Sending batch 9/10 (4 orders): LON_FLY BUY x1 @ 5873; LON_FLY SELL x1 @ 6136; LON_ETF SELL x2 @ 83096.0; TIDE_SPOT BUY x2 @ 2460.0
+15:08:55 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 112037
+15:08:55 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:08:56 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 9/10
+15:08:56 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5924; LON_FLY SELL x3 @ 6055
+15:08:57 [INFO] algothon.bot: Sending batch 10/10 (3 orders): WX_SPOT BUY x2 @ 3742.0; LHR_COUNT BUY x2 @ 1895.0; LON_FLY BUY x3 @ 7.0
+15:08:57 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:08:57 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 10/10
+15:08:57 [INFO] algothon.bot: Positions: LHR_COUNT=-19  LON_FLY=+9  LHR_INDEX=-57  TIDE_SWING=-100  WX_SUM=+44  TIDE_SPOT=+9  WX_SPOT=+53  LON_ETF=-100 | PnL: total=-4658819.7 (unreal=-4658819.7, real=+0.0)
+15:08:58 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 5858; LON_FLY SELL x1 @ 6121; LON_FLY BUY x3 @ 14.0
+15:08:59 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:08:59 [INFO] algothon.bot: Positions: LHR_COUNT=-29  LON_FLY=+7  LHR_INDEX=-59  TIDE_SWING=-100  WX_SUM=+42  TIDE_SPOT=+9  WX_SPOT=+57  LON_ETF=-100 | PnL: total=-3848699.2 (unreal=-3848699.2, real=+0.0)
+15:08:59 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:08:59 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:08:59 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:00 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:00 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:00 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:00 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:00 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:01 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x2 @ 4417; WX_SPOT SELL x5 @ 4434; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4442
+15:09:01 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:02 [INFO] algothon.bot: FILL: BOUGHT 1.0x WX_SPOT @ 3879
+15:09:02 [INFO] algothon.bot: FILL: BOUGHT 1.0x WX_SPOT @ 3879
+15:09:02 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3879
+15:09:02 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:02 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:03 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:03 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x2 @ 4417; WX_SPOT SELL x5 @ 4434; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4442
+15:09:03 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3878
+15:09:03 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3879
+15:09:03 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3879
+15:09:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:04 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:04 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3077; LHR_COUNT SELL x4 @ 3118; LHR_COUNT BUY x2 @ 3057; LHR_COUNT SELL x2 @ 3138
+15:09:04 [INFO] algothon.bot: FILL: BOUGHT 5x LHR_COUNT @ 14
+15:09:04 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 14
+15:09:04 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:04 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:05 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:09:05 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3077; LHR_COUNT SELL x4 @ 3118; LHR_COUNT BUY x2 @ 3057; LHR_COUNT SELL x2 @ 3138
+15:09:05 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 264
+15:09:05 [INFO] algothon.bot: FILL: BOUGHT 5x LHR_COUNT @ 14
+15:09:05 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:05 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 14
+15:09:05 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 15
+15:09:05 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:06 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:06 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:09:06 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 263
+15:09:06 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:06 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:07 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5939; LON_FLY SELL x3 @ 6070
+
+15:09:08 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:09 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5873; LON_FLY SELL x1 @ 6136
+15:09:09 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5925; LON_FLY SELL x3 @ 6057
+15:09:09 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:09 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:09 [INFO] algothon.bot: Positions: LHR_COUNT=-17  LON_FLY=+6  LHR_INDEX=-60  TIDE_SWING=-100  WX_SUM=+44  TIDE_SPOT=+9  WX_SPOT=+63  LON_ETF=-100 | PnL: total=-4516789.7 (unreal=-4516789.7, real=+0.0)
+15:09:10 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5860; LON_FLY SELL x1 @ 6122
+15:09:10 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:10 [INFO] algothon.bot: Positions: LHR_COUNT=-3  LON_FLY=+6  LHR_INDEX=-60  TIDE_SWING=-100  WX_SUM=+44  TIDE_SPOT=+9  WX_SPOT=+59  LON_ETF=-100 | PnL: total=-3746244.1 (unreal=-3746244.1, real=+0.0)
+15:09:10 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:10 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:11 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:11 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:11 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:11 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:12 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:12 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:12 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:13 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:13 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4417; WX_SPOT SELL x5 @ 4434; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4442
+15:09:13 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3878
+15:09:13 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3879
+15:09:13 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:14 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4417; WX_SPOT SELL x5 @ 4434; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4442
+15:09:14 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:15 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3879
+15:09:15 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3879
+15:09:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:16 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:16 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3075; LHR_COUNT SELL x4 @ 3116; LHR_COUNT BUY x2 @ 3055; LHR_COUNT SELL x2 @ 3136
+15:09:16 [INFO] algothon.bot: FILL: BOUGHT 5x LHR_COUNT @ 14
+15:09:16 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 14
+15:09:16 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:16 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:17 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3075; LHR_COUNT SELL x4 @ 3116; LHR_COUNT BUY x2 @ 3055; LHR_COUNT SELL x2 @ 3136
+15:09:17 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:09:17 [INFO] algothon.bot: FILL: BOUGHT 3.0x LHR_COUNT @ 14
+15:09:17 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 14
+15:09:17 [INFO] algothon.bot: FILL: BOUGHT 1.0x LHR_COUNT @ 20
+15:09:18 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 261
+15:09:18 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 20
+15:09:18 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:18 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:19 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:09:19 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:19 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 260
+15:09:19 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:19 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:20 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5939; LON_FLY SELL x3 @ 6070
+15:09:20 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:20 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 76184
+15:09:20 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:20 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:21 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5925; LON_FLY SELL x3 @ 6057
+15:09:21 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5873; LON_FLY SELL x1 @ 6136
+15:09:21 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:21 [INFO] algothon.bot: Positions: LHR_COUNT=+6  LON_FLY=+6  LHR_INDEX=-62  TIDE_SWING=-100  WX_SUM=+44  TIDE_SPOT=+9  WX_SPOT=+66  LON_ETF=-100 | PnL: total=-4735157.1 (unreal=-4735157.1, real=+0.0)
+15:09:21 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:22 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5860; LON_FLY SELL x1 @ 6122
+15:09:22 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:22 [INFO] algothon.bot: Positions: LHR_COUNT=+2  LON_FLY=+5  LHR_INDEX=-62  TIDE_SWING=-100  WX_SUM=+44  TIDE_SPOT=+9  WX_SPOT=+66  LON_ETF=-100 | PnL: total=-4168039.6 (unreal=-4168039.6, real=+0.0)
+15:09:23 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:23 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:23 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:24 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:24 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:24 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:24 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:24 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:25 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:25 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:25 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4417; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4441
+15:09:26 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3885
+15:09:26 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3885
+15:09:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:26 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4417; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4441
+15:09:27 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3885
+15:09:27 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3885
+15:09:27 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:27 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:27 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:28 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:28 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:28 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3073; LHR_COUNT SELL x5 @ 3114; LHR_COUNT BUY x2 @ 3053; LHR_COUNT SELL x2 @ 3134
+15:09:29 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:09:29 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:09:29 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 18
+15:09:29 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:29 [INFO] algothon.bot: FILL: BOUGHT 3x LHR_COUNT @ 3073
+15:09:29 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3053
+15:09:29 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3073; LHR_COUNT SELL x5 @ 3114; LHR_COUNT BUY x2 @ 3053; LHR_COUNT SELL x2 @ 3134
+15:09:30 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:30 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:09:30 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 260
+15:09:30 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:31 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 196; LHR_INDEX SELL x1 @ 247; LHR_INDEX BUY x1 @ 171; LHR_INDEX SELL x1 @ 272
+15:09:31 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 259
+15:09:31 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:32 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:32 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:32 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:33 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5939; LON_FLY SELL x3 @ 6071
+15:09:33 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:33 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:34 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5926; LON_FLY SELL x3 @ 6057
+15:09:34 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5874; LON_FLY SELL x1 @ 6136
+15:09:34 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:34 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:34 [INFO] algothon.bot: Positions: LHR_COUNT=+11  LON_FLY=+5  LHR_INDEX=-65  TIDE_SWING=-100  WX_SUM=+46  TIDE_SPOT=+9  WX_SPOT=+71  LON_ETF=-100 | PnL: total=-4279473.3 (unreal=-4279473.3, real=+0.0)
+15:09:35 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5860; LON_FLY SELL x1 @ 6123
+15:09:36 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:36 [INFO] algothon.bot: Positions: LHR_COUNT=+17  LON_FLY=+5  LHR_INDEX=-63  TIDE_SWING=-100  WX_SUM=+44  TIDE_SPOT=+9  WX_SPOT=+69  LON_ETF=-100 | PnL: total=-3726494.1 (unreal=-3726494.1, real=+0.0)
+15:09:36 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:36 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:37 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:37 [INFO] algothon.bot: Prepared 34 candidate orders this tick
+15:09:37 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:37 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:38 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:38 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:38 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:39 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:39 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4441
+15:09:39 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3888
+15:09:39 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3888
+15:09:39 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:40 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4441
+15:09:40 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3888
+15:09:40 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3888
+15:09:40 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:40 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:41 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:41 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:42 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:42 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3072; LHR_COUNT SELL x5 @ 3113; LHR_COUNT BUY x2 @ 3052; LHR_COUNT SELL x2 @ 3133
+15:09:42 [INFO] algothon.bot: FILL: BOUGHT 4x LHR_COUNT @ 14
+15:09:42 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 14
+15:09:42 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:43 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3072; LHR_COUNT SELL x5 @ 3113; LHR_COUNT BUY x2 @ 3052; LHR_COUNT SELL x2 @ 3133
+15:09:43 [INFO] algothon.bot: FILL: BOUGHT 1x LHR_COUNT @ 14
+15:09:43 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:43 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 197; LHR_INDEX SELL x1 @ 248; LHR_INDEX BUY x1 @ 172; LHR_INDEX SELL x1 @ 273
+15:09:44 [INFO] algothon.bot: FILL: BOUGHT 3x LHR_COUNT @ 3072
+15:09:44 [INFO] algothon.bot: FILL: BOUGHT 2x LHR_COUNT @ 3052
+15:09:44 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 260
+15:09:44 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:44 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 197; LHR_INDEX SELL x1 @ 248; LHR_INDEX BUY x1 @ 172; LHR_INDEX SELL x1 @ 273
+15:09:45 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 259
+15:09:45 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:45 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:45 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:09:45 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:09:45 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:46 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:46 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:46 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5939; LON_FLY SELL x3 @ 6071
+15:09:47 [INFO] algothon.bot: FILL: SOLD  3x LON_FLY @ 134429
+15:09:47 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x2 @ 5926; LON_FLY SELL x3 @ 6057
+15:09:47 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:47 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 134429
+15:09:47 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 134429
+15:09:47 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:09:48 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5874; LON_FLY SELL x1 @ 6136
+15:09:48 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5860; LON_FLY SELL x1 @ 6123
+15:09:49 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 134429
+15:09:49 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:49 [INFO] algothon.bot: Positions: LHR_COUNT=+24  LON_FLY=-2  LHR_INDEX=-66  TIDE_SWING=-100  WX_SUM=+48  TIDE_SPOT=+9  WX_SPOT=+74  LON_ETF=-100 | PnL: total=-4254126.9 (unreal=-4254126.9, real=+0.0)
+15:09:49 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 134429
+15:09:49 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:09:49 [INFO] algothon.bot: Positions: LHR_COUNT=+22  LON_FLY=+4  LHR_INDEX=-66  TIDE_SWING=-100  WX_SUM=+46  TIDE_SPOT=+9  WX_SPOT=+74  LON_ETF=-100 | PnL: total=-3246702.1 (unreal=-3246702.1, real=+0.0)
+15:09:51 [INFO] algothon.options: OPT: Sell FLY @ 134429.0 (model=6003)
+15:09:51 [INFO] algothon.bot: Prepared 35 candidate orders this tick
+15:09:51 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:51 [INFO] algothon.options: OPT: Sell FLY @ 134429.0 (model=6005)
+15:09:51 [INFO] algothon.bot: Prepared 35 candidate orders this tick
+15:09:51 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:09:51 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:51 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:09:52 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:52 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:09:52 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:52 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:09:53 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:09:53 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:09:54 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3897
+15:09:54 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3897
+15:09:54 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3897
+15:09:54 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:54 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:09:54 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3897
+15:09:55 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:55 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:09:55 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:55 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:09:56 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x3 @ 3071; LHR_COUNT SELL x5 @ 3112; LHR_COUNT BUY x1 @ 3051; LHR_COUNT SELL x2 @ 3132
+15:09:56 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x3 @ 3071; LHR_COUNT SELL x5 @ 3112; LHR_COUNT BUY x1 @ 3051; LHR_COUNT SELL x2 @ 3132
+15:09:56 [INFO] algothon.bot: FILL: SOLD  5x LHR_COUNT @ 81752
+15:09:56 [INFO] algothon.bot: FILL: SOLD  2x LHR_COUNT @ 81752
+15:09:56 [INFO] algothon.bot: FILL: SOLD  3x LHR_COUNT @ 81752
+15:09:56 [INFO] algothon.bot: FILL: SOLD  1x LHR_COUNT @ 81742
+15:09:56 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:56 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:09:57 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 197; LHR_INDEX SELL x1 @ 248; LHR_INDEX BUY x1 @ 172; LHR_INDEX SELL x1 @ 273
+15:09:57 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 197; LHR_INDEX SELL x1 @ 248; LHR_INDEX BUY x1 @ 172; LHR_INDEX SELL x1 @ 273
+15:09:57 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 263
+15:09:58 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:58 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 263
+15:09:58 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:09:59 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:59 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:09:59 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:09:59 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:10:00 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x3 @ 5942; LON_FLY SELL x2 @ 6074
+15:10:00 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x3 @ 5929; LON_FLY SELL x2 @ 6061
+15:10:00 [INFO] algothon.bot: FILL: SOLD  1.0x LHR_COUNT @ 3112
+15:10:00 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 74698
+15:10:00 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 74698
+15:10:00 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:10:00 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:10:01 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 5863; LON_FLY SELL x1 @ 6126; LON_FLY SELL x3 @ 134429.0
+15:10:01 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 5877; LON_FLY SELL x1 @ 6139; LON_FLY SELL x3 @ 134429.0
+15:10:01 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 74698
+15:10:01 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 74698
+15:10:01 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:10:01 [INFO] algothon.bot: Positions: LHR_COUNT=+29  LON_FLY=-3  LHR_INDEX=-68  TIDE_SWING=-100  WX_SUM=+48  TIDE_SPOT=+9  WX_SPOT=+76  LON_ETF=-100 | PnL: total=-2884537.7 (unreal=-2884537.7, real=+0.0)
+15:10:01 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:10:01 [INFO] algothon.bot: Positions: LHR_COUNT=+17  LON_FLY=-9  LHR_INDEX=-68  TIDE_SWING=-100  WX_SUM=+48  TIDE_SPOT=+9  WX_SPOT=+80  LON_ETF=-100 | PnL: total=-3294794.3 (unreal=-3294794.3, real=+0.0)
+15:10:01 [INFO] algothon.data: Weather: 192 rows fetched
+15:10:02 [INFO] algothon.data: Thames: 200 readings fetched
+15:10:02 [INFO] algothon.data: Flights: 1621 arrivals, 1479 departures
+15:10:02 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:10:02 [INFO] algothon.bot:   LHR_COUNT    FV=    3100  conf=0.50
+15:10:02 [INFO] algothon.bot:   LHR_INDEX    FV=     220  conf=0.30
+15:10:02 [INFO] algothon.bot:   LON_ETF      FV=   10013  conf=0.26
+15:10:02 [INFO] algothon.bot:   LON_FLY      FV=    6028  conf=0.16
+15:10:02 [INFO] algothon.bot:   TIDE_SPOT    FV=    2484  conf=0.26
+15:10:02 [INFO] algothon.bot:   TIDE_SWING   FV=     277  conf=0.37
+15:10:02 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:10:02 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:10:03 [INFO] algothon.options: OPT: Sell FLY @ 74698.0 (model=6031)
+15:10:03 [INFO] algothon.bot: Prepared 35 candidate orders this tick
+15:10:03 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2454; TIDE_SPOT SELL x5 @ 2512; TIDE_SPOT BUY x2 @ 2425; TIDE_SPOT SELL x2 @ 2541
+15:10:03 [INFO] algothon.options: OPT: Sell FLY @ 74698.0 (model=6005)
+15:10:03 [INFO] algothon.bot: Prepared 35 candidate orders this tick
+15:10:03 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2448; TIDE_SPOT SELL x5 @ 2508; TIDE_SPOT BUY x2 @ 2419; TIDE_SPOT SELL x2 @ 2538
+15:10:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:10:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:10:04 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 298; TIDE_SWING SELL x1 @ 327; TIDE_SWING BUY x1 @ 285; TIDE_SWING SELL x1 @ 341
+15:10:04 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:10:04 [INFO] algothon.bot: Keyboard interrupt received
+15:10:04 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:10:04 [INFO] algothon.bot: Shutting down...
+15:10:05 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:10:05 [INFO] algothon.bot: Bot stopped.
+15:10:05 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3897
+15:10:05 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SPOT @ 3897
+15:10:05 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:10:06 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:10:07 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:10:08 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3072; LHR_COUNT SELL x5 @ 3113; LHR_COUNT BUY x2 @ 3052; LHR_COUNT SELL x2 @ 3133
+15:10:08 [INFO] algothon.bot: FILL: SOLD  2x LHR_COUNT @ 40888
+15:10:08 [INFO] algothon.bot: FILL: SOLD  3x LHR_COUNT @ 40888
+15:10:08 [INFO] algothon.bot: FILL: SOLD  2x LHR_COUNT @ 40883
+15:10:08 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:10:09 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 197; LHR_INDEX SELL x1 @ 248; LHR_INDEX BUY x1 @ 172; LHR_INDEX SELL x1 @ 273
+15:10:09 [INFO] algothon.bot: FILL: SOLD  1x LHR_INDEX @ 264
+15:10:09 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:10:10 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9983; LON_ETF SELL x1 @ 10082; LON_ETF BUY x2 @ 9934; LON_ETF SELL x1 @ 10131
+15:10:10 [INFO] algothon.bot: FILL: BOUGHT 1x WX_SUM @ 3337
+15:10:10 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:10:11 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9885; LON_ETF SELL x1 @ 10180; LON_FLY BUY x3 @ 5945; LON_FLY SELL x2 @ 6076
+15:10:12 [INFO] algothon.bot: FILL: SOLD  2x LON_FLY @ 37354
+15:10:12 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:10:13 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 5879; LON_FLY SELL x1 @ 6142; LON_FLY SELL x3 @ 74698.0
+15:10:13 [INFO] algothon.bot: FILL: SOLD  1x LON_FLY @ 37354
+15:10:13 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:10:13 [INFO] algothon.bot: Positions: LHR_COUNT=+10  LON_FLY=-12  LHR_INDEX=-70  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+9  WX_SPOT=+82  LON_ETF=-100 | PnL: total=-1088614.9 (unreal=-1088614.9, real=+0.0)
+15:10:14 [INFO] algothon.bot: FILL: BOUGHT 3x LON_FLY @ 5945
+15:10:16 [INFO] algothon.bot: FILL: BOUGHT 1x LON_FLY @ 5879
+15:10:16 [INFO] algothon.bot: Keyboard interrupt received
+15:10:16 [INFO] algothon.bot: Shutting down...
+15:10:16 [INFO] algothon.bot: Bot stopped.
+15:11:37 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:11:37 [INFO] algothon.bot:   ALGOTHON BOT STARTING
+15:11:37 [INFO] algothon.bot:   Session: 2026-02-28 12:00:00+00:00 → 2026-03-01 12:00:00+00:00
+15:11:37 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:11:38 [INFO] algothon.bot: Products discovered: ['TIDE_SPOT', 'TIDE_SWING', 'WX_SPOT', 'WX_SUM', 'LHR_COUNT', 'LHR_INDEX', 'LON_ETF', 'LON_FLY']
+15:11:38 [INFO] algothon.data: Weather: 192 rows fetched
+15:11:40 [INFO] algothon.data: Thames: 200 readings fetched
+15:11:40 [INFO] algothon.data: Flights: 1624 arrivals, 1479 departures
+15:11:40 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:11:40 [INFO] algothon.bot:   LHR_COUNT    FV=    3103  conf=0.50
+15:11:40 [INFO] algothon.bot:   LHR_INDEX    FV=     224  conf=0.30
+15:11:40 [INFO] algothon.bot:   LON_ETF      FV=   10016  conf=0.26
+15:11:40 [INFO] algothon.bot:   LON_FLY      FV=    6025  conf=0.16
+15:11:40 [INFO] algothon.bot:   TIDE_SPOT    FV=    2484  conf=0.26
+15:11:40 [INFO] algothon.bot:   TIDE_SWING   FV=     277  conf=0.37
+15:11:40 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:11:40 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:11:40 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:11:40 [INFO] algothon.bot:   LHR_COUNT    FV=    3103  conf=0.50
+15:11:40 [INFO] algothon.bot:   LHR_INDEX    FV=     224  conf=0.30
+15:11:40 [INFO] algothon.bot:   LON_ETF      FV=   10016  conf=0.26
+15:11:40 [INFO] algothon.bot:   LON_FLY      FV=    6039  conf=0.16
+15:11:40 [INFO] algothon.bot:   TIDE_SPOT    FV=    2484  conf=0.26
+15:11:40 [INFO] algothon.bot:   TIDE_SWING   FV=     277  conf=0.37
+15:11:40 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:11:40 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2454; SELL x5 @ 2512; BUY x2 @ 2425; SELL x2 @ 2541
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4441
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x4 @ 3081; SELL x5 @ 3122; BUY x2 @ 3061; SELL x2 @ 3142
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 209; SELL x1 @ 260; BUY x1 @ 184; SELL x1 @ 285
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 9996; SELL x1 @ 10092; BUY x2 @ 9949; SELL x1 @ 10140; BUY x1 @ 9901; SELL x1 @ 10188
+15:11:41 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 5978; SELL x2 @ 6106; BUY x1 @ 5915; SELL x1 @ 6170
+15:11:41 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2454; TIDE_SPOT SELL x5 @ 2512; TIDE_SPOT BUY x2 @ 2425; TIDE_SPOT SELL x2 @ 2541
+15:11:41 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:11:42 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:11:43 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:11:44 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:11:45 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:11:46 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:11:46 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:11:47 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3081; LHR_COUNT SELL x5 @ 3122; LHR_COUNT BUY x2 @ 3061; LHR_COUNT SELL x2 @ 3142
+15:11:47 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:11:48 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 209; LHR_INDEX SELL x1 @ 260; LHR_INDEX BUY x1 @ 184; LHR_INDEX SELL x1 @ 285
+15:11:49 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:11:50 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9996; LON_ETF SELL x1 @ 10092; LON_ETF BUY x2 @ 9949; LON_ETF SELL x1 @ 10140
+15:11:50 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:11:51 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9901; LON_ETF SELL x1 @ 10188; LON_FLY BUY x3 @ 5978; LON_FLY SELL x2 @ 6106
+15:11:52 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:11:53 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5915; LON_FLY SELL x1 @ 6170
+15:11:53 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:11:53 [INFO] algothon.bot: Positions: LHR_COUNT=+10  LON_FLY=-8  LHR_INDEX=-70  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+9  WX_SPOT=+82  LON_ETF=-100 | PnL: total=+0.0 (unreal=+0.0, real=+0.0)
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2454; SELL x5 @ 2512; BUY x2 @ 2425; SELL x2 @ 2541
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4441
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x4 @ 3082; SELL x5 @ 3123; BUY x2 @ 3062; SELL x2 @ 3143
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 209; SELL x1 @ 260; BUY x1 @ 184; SELL x1 @ 285
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 9996; SELL x1 @ 10092; BUY x2 @ 9949; SELL x1 @ 10140; BUY x1 @ 9901; SELL x1 @ 10188
+15:11:54 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 5977; SELL x2 @ 6105; BUY x1 @ 5913; SELL x1 @ 6168
+15:11:54 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2454; TIDE_SPOT SELL x5 @ 2512; TIDE_SPOT BUY x2 @ 2425; TIDE_SPOT SELL x2 @ 2541
+15:11:55 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:11:56 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 1x @ 3220
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 1x @ 3220
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 55743.0
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: SOLD  1x @ 263
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 3x @ 14
+15:11:57 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 1x @ 14
+15:11:57 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:11:58 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:11:58 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:11:58 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 1x @ 4416
+15:11:59 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 1x @ 4408
+15:11:59 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:12:00 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:12:01 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 3082; LHR_COUNT SELL x5 @ 3123; LHR_COUNT BUY x2 @ 3062; LHR_COUNT SELL x2 @ 3143
+15:12:01 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 49165.0
+15:12:01 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 42557.0
+15:12:01 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  3x @ 42546
+15:12:01 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  2x @ 42546
+15:12:01 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:12:02 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 209; LHR_INDEX SELL x1 @ 260; LHR_INDEX BUY x1 @ 184; LHR_INDEX SELL x1 @ 285
+15:12:03 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: SOLD  1x @ 263
+15:12:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:12:04 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9996; LON_ETF SELL x1 @ 10092; LON_ETF BUY x2 @ 9949; LON_ETF SELL x1 @ 10140
+15:12:05 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:12:05 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: BOUGHT 1.0x @ 2454
+15:12:05 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: BOUGHT 1x @ 2454
+15:12:06 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9901; LON_ETF SELL x1 @ 10188; LON_FLY BUY x3 @ 5977; LON_FLY SELL x2 @ 6105
+15:12:06 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 71215
+15:12:06 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:12:06 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: BOUGHT 1x @ 2454
+15:12:07 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 5913; LON_FLY SELL x1 @ 6168
+15:12:08 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  1x @ 71215
+15:12:08 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: BOUGHT 1.0x @ 2454
+15:12:08 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+15:12:08 [INFO] algothon.bot: Positions: LHR_COUNT=-11  LON_FLY=-3  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+13  WX_SPOT=+88  LON_ETF=-100 | PnL: total=+484288.0 (unreal=+484288.0, real=+0.0)
+15:12:09 [INFO] algothon.options: OPT: Buy FLY @ 4810.0 (model=6030)
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2425; SELL x2 @ 2540
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4441
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3083; SELL x4 @ 3124; BUY x2 @ 3063; SELL x2 @ 3144
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 210; SELL x1 @ 261; BUY x1 @ 185; SELL x1 @ 286
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 9996; SELL x1 @ 10092; BUY x2 @ 9949; SELL x1 @ 10140; BUY x1 @ 9901; SELL x1 @ 10188
+15:12:09 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 5978; SELL x2 @ 6106; BUY x1 @ 5914; SELL x1 @ 6169; BUY x3 @ 4810.0
+15:12:09 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2425; TIDE_SPOT SELL x2 @ 2540
+15:12:10 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:12:11 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:12:11 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:12:12 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:12:13 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 1x @ 3220
+15:12:13 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 1x @ 3220
+15:12:13 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:12:14 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:12:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:12:16 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3083; LHR_COUNT SELL x4 @ 3124; LHR_COUNT BUY x2 @ 3063; LHR_COUNT SELL x2 @ 3144
+15:12:16 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 21991.0
+15:12:17 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:12:17 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 3124
+15:12:17 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1.0x @ 3124
+15:12:17 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 3124
+15:12:18 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 210; LHR_INDEX SELL x1 @ 261; LHR_INDEX BUY x1 @ 185; LHR_INDEX SELL x1 @ 286
+15:12:18 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 3124
+15:12:18 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: SOLD  1x @ 263
+15:12:18 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: SOLD  1x @ 3144
+15:12:18 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:12:19 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 9996; LON_ETF SELL x1 @ 10092; LON_ETF BUY x2 @ 9949; LON_ETF SELL x1 @ 10140
+15:12:20 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:12:21 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9901; LON_ETF SELL x1 @ 10188; LON_FLY BUY x3 @ 5978; LON_FLY SELL x2 @ 6106
+15:12:22 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 3x @ 2414
+15:12:22 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:12:23 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 5914; LON_FLY SELL x1 @ 6169; LON_FLY BUY x3 @ 4810.0
+15:12:23 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:12:23 [INFO] algothon.bot: Positions: LHR_COUNT=-10  LON_FLY=-4  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+13  WX_SPOT=+88  LON_ETF=-100 | PnL: total=+252665.7 (unreal=+252665.7, real=+0.0)
+15:12:23 [INFO] algothon.bot: Keyboard interrupt received
+15:12:23 [INFO] algothon.bot: Shutting down...
+15:12:24 [INFO] algothon.bot: Bot stopped.
+15:17:10 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:17:10 [INFO] algothon.bot:   ALGOTHON BOT STARTING
+15:17:10 [INFO] algothon.bot:   Session: 2026-02-28 12:00:00+00:00 → 2026-03-01 12:00:00+00:00
+15:17:10 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+15:17:10 [INFO] algothon.bot: Products discovered: ['TIDE_SPOT', 'TIDE_SWING', 'WX_SPOT', 'WX_SUM', 'LHR_COUNT', 'LHR_INDEX', 'LON_ETF', 'LON_FLY']
+15:17:10 [INFO] algothon.data: Weather: 192 rows fetched
+15:17:10 [INFO] algothon.data: Thames: 200 readings fetched
+15:17:11 [INFO] algothon.data: Flights: 1647 arrivals, 1510 departures
+15:17:11 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:17:11 [INFO] algothon.bot:   LHR_COUNT    FV=    3157  conf=0.50
+15:17:11 [INFO] algothon.bot:   LHR_INDEX    FV=     208  conf=0.30
+15:17:11 [INFO] algothon.bot:   LON_ETF      FV=   10070  conf=0.26
+15:17:11 [INFO] algothon.bot:   LON_FLY      FV=    6140  conf=0.16
+15:17:11 [INFO] algothon.bot:   TIDE_SPOT    FV=    2484  conf=0.26
+15:17:11 [INFO] algothon.bot:   TIDE_SWING   FV=     277  conf=0.37
+15:17:11 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:17:11 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:17:11 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+15:17:11 [INFO] algothon.bot:   LHR_COUNT    FV=    3157  conf=0.50
+15:17:11 [INFO] algothon.bot:   LHR_INDEX    FV=     208  conf=0.30
+15:17:11 [INFO] algothon.bot:   LON_ETF      FV=   10070  conf=0.26
+15:17:11 [INFO] algothon.bot:   LON_FLY      FV=    6145  conf=0.16
+15:17:11 [INFO] algothon.bot:   TIDE_SPOT    FV=    2484  conf=0.26
+15:17:11 [INFO] algothon.bot:   TIDE_SWING   FV=     277  conf=0.37
+15:17:11 [INFO] algothon.bot:   WX_SPOT      FV=    4428  conf=0.95
+15:17:11 [INFO] algothon.bot:   WX_SUM       FV=    3351  conf=0.47
+15:17:11 [INFO] algothon.options: OPT: Sell FLY @ 29686.0 (model=6142)
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2425; SELL x2 @ 2540
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4440
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3138; SELL x4 @ 3179; BUY x2 @ 3118; SELL x2 @ 3199
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 194; SELL x1 @ 245; BUY x1 @ 169; SELL x1 @ 270
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 10050; SELL x1 @ 10146; BUY x2 @ 10003; SELL x1 @ 10194; BUY x1 @ 9955; SELL x1 @ 10242
+15:17:11 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 6082; SELL x2 @ 6210; BUY x1 @ 6019; SELL x1 @ 6274; SELL x3 @ 29686.0
+15:17:11 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2425; TIDE_SPOT SELL x2 @ 2540
+15:17:12 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:17:12 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  3x @ 2511
+15:17:13 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:17:13 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: BOUGHT 3x @ 2453
+15:17:13 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: BOUGHT 1x @ 2453
+15:17:13 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:17:14 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4440
+15:17:14 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:17:15 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:17:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:17:16 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3138; LHR_COUNT SELL x4 @ 3179; LHR_COUNT BUY x2 @ 3118; LHR_COUNT SELL x2 @ 3199
+15:17:17 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:17:18 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:17:18 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:17:19 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 10050; LON_ETF SELL x1 @ 10146; LON_ETF BUY x2 @ 10003; LON_ETF SELL x1 @ 10194
+15:17:19 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:17:20 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9955; LON_ETF SELL x1 @ 10242; LON_FLY BUY x3 @ 6082; LON_FLY SELL x2 @ 6210
+15:17:21 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 6210
+15:17:21 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:17:22 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 6019; LON_FLY SELL x1 @ 6274; LON_FLY SELL x3 @ 29686.0
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  3x @ 59380
+15:17:23 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:17:23 [INFO] algothon.bot: Positions: LHR_COUNT=-10  LON_FLY=-9  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+14  WX_SPOT=+88  LON_ETF=-100 | PnL: total=-318906.0 (unreal=-318906.0, real=+0.0)
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  1x @ 59380
+15:17:23 [INFO] algothon.options: OPT: Sell FLY @ 59380.0 (model=6140)
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2424; SELL x2 @ 2540
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4440
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3138; SELL x4 @ 3179; BUY x2 @ 3118; SELL x2 @ 3199
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 194; SELL x1 @ 245; BUY x1 @ 169; SELL x1 @ 270
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 10050; SELL x1 @ 10146; BUY x2 @ 10003; SELL x1 @ 10194; BUY x1 @ 9955; SELL x1 @ 10242
+15:17:23 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 6085; SELL x2 @ 6213; BUY x1 @ 6021; SELL x1 @ 6276; SELL x3 @ 59380.0
+15:17:23 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2424; TIDE_SPOT SELL x2 @ 2540
+15:17:24 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:17:25 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:17:25 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:17:26 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4440
+15:17:27 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:17:28 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:17:29 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:17:30 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3138; LHR_COUNT SELL x4 @ 3179; LHR_COUNT BUY x2 @ 3118; LHR_COUNT SELL x2 @ 3199
+15:17:30 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:17:31 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:17:32 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:17:33 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 10050; LON_ETF SELL x1 @ 10146; LON_ETF BUY x2 @ 10003; LON_ETF SELL x1 @ 10194
+15:17:34 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:17:35 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9955; LON_ETF SELL x1 @ 10242; LON_FLY BUY x3 @ 6085; LON_FLY SELL x2 @ 6213
+15:17:35 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  5.0x @ 4433
+15:17:35 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:17:36 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 6213
+15:17:36 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 6021; LON_FLY SELL x1 @ 6276; LON_FLY SELL x3 @ 59380.0
+15:17:37 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  1x @ 59382
+15:17:37 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:17:37 [INFO] algothon.bot: Positions: LHR_COUNT=-10  LON_FLY=-13  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+14  WX_SPOT=+83  LON_ETF=-100 | PnL: total=-425088.0 (unreal=-425088.0, real=+0.0)
+15:17:37 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 59382
+15:17:37 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  1x @ 59382
+15:17:39 [INFO] algothon.options: OPT: Sell FLY @ 59382.0 (model=6140)
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2424; SELL x2 @ 2540
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4441
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3138; SELL x4 @ 3179; BUY x2 @ 3118; SELL x2 @ 3199
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 194; SELL x1 @ 245; BUY x1 @ 169; SELL x1 @ 270
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 10050; SELL x1 @ 10146; BUY x2 @ 10003; SELL x1 @ 10194; BUY x1 @ 9955; SELL x1 @ 10242
+15:17:39 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 6087; SELL x2 @ 6215; BUY x1 @ 6024; SELL x1 @ 6278; SELL x3 @ 59382.0
+15:17:39 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2424; TIDE_SPOT SELL x2 @ 2540
+15:17:39 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:17:40 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:17:40 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:17:41 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:17:42 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:17:43 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:17:44 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:17:45 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3138; LHR_COUNT SELL x4 @ 3179; LHR_COUNT BUY x2 @ 3118; LHR_COUNT SELL x2 @ 3199
+15:17:46 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:17:47 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:17:48 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:17:49 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 10050; LON_ETF SELL x1 @ 10146; LON_ETF BUY x2 @ 10003; LON_ETF SELL x1 @ 10194
+15:17:49 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:17:50 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9955; LON_ETF SELL x1 @ 10242; LON_FLY BUY x3 @ 6087; LON_FLY SELL x2 @ 6215
+15:17:50 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:17:51 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 6024; LON_FLY SELL x1 @ 6278; LON_FLY SELL x3 @ 59382.0
+15:17:52 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:17:52 [INFO] algothon.bot: Positions: LHR_COUNT=-10  LON_FLY=-16  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+14  WX_SPOT=+83  LON_ETF=-100 | PnL: total=-425103.0 (unreal=-425103.0, real=+0.0)
+15:17:54 [INFO] algothon.options: OPT: Sell FLY @ 59382.0 (model=6139)
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2424; SELL x2 @ 2540
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4408; SELL x2 @ 4441
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3138; SELL x4 @ 3179; BUY x2 @ 3118; SELL x2 @ 3199
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 194; SELL x1 @ 245; BUY x1 @ 169; SELL x1 @ 270
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 10050; SELL x1 @ 10146; BUY x2 @ 10003; SELL x1 @ 10194; BUY x1 @ 9955; SELL x1 @ 10242
+15:17:54 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 6088; SELL x2 @ 6216; BUY x1 @ 6024; SELL x1 @ 6279; SELL x3 @ 59382.0
+15:17:54 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2424; TIDE_SPOT SELL x2 @ 2540
+15:17:54 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:17:55 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:17:56 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:17:57 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4408; WX_SPOT SELL x2 @ 4441
+15:17:57 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:17:58 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:17:59 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:18:00 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3138; LHR_COUNT SELL x4 @ 3179; LHR_COUNT BUY x2 @ 3118; LHR_COUNT SELL x2 @ 3199
+15:18:00 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:18:01 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:18:02 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:18:03 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 10050; LON_ETF SELL x1 @ 10146; LON_ETF BUY x2 @ 10003; LON_ETF SELL x1 @ 10194
+15:18:03 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:18:04 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9955; LON_ETF SELL x1 @ 10242; LON_FLY BUY x3 @ 6088; LON_FLY SELL x2 @ 6216
+15:18:04 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:18:05 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 6024; LON_FLY SELL x1 @ 6279; LON_FLY SELL x3 @ 59382.0
+15:18:06 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:18:06 [INFO] algothon.bot: Positions: LHR_COUNT=-10  LON_FLY=-18  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+14  WX_SPOT=+78  LON_ETF=-100 | PnL: total=-481390.2 (unreal=-481390.2, real=+0.0)
+15:18:07 [INFO] algothon.options: OPT: Sell FLY @ 59382.0 (model=6143)
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2424; SELL x2 @ 2540
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4409; SELL x2 @ 4441
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3138; SELL x4 @ 3179; BUY x2 @ 3118; SELL x2 @ 3199
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 194; SELL x1 @ 245; BUY x1 @ 169; SELL x1 @ 270
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 10050; SELL x1 @ 10146; BUY x2 @ 10003; SELL x1 @ 10194; BUY x1 @ 9955; SELL x1 @ 10242
+15:18:07 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 6089; SELL x2 @ 6217; BUY x1 @ 6025; SELL x1 @ 6280; SELL x3 @ 59382.0
+15:18:07 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2424; TIDE_SPOT SELL x2 @ 2540
+15:18:08 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:18:09 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:18:10 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:18:11 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4441
+15:18:11 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:18:12 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:18:12 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:18:13 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3138; LHR_COUNT SELL x4 @ 3179; LHR_COUNT BUY x2 @ 3118; LHR_COUNT SELL x2 @ 3199
+15:18:13 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+15:18:14 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 194; LHR_INDEX SELL x1 @ 245; LHR_INDEX BUY x1 @ 169; LHR_INDEX SELL x1 @ 270
+15:18:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+15:18:16 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 10050; LON_ETF SELL x1 @ 10146; LON_ETF BUY x2 @ 10003; LON_ETF SELL x1 @ 10194
+15:18:17 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+15:18:18 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 9955; LON_ETF SELL x1 @ 10242; LON_FLY BUY x3 @ 6089; LON_FLY SELL x2 @ 6217
+15:18:18 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+15:18:19 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 6025; LON_FLY SELL x1 @ 6280; LON_FLY SELL x3 @ 59382.0
+15:18:20 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+15:18:20 [INFO] algothon.bot: Positions: LHR_COUNT=-10  LON_FLY=-21  LHR_INDEX=-73  TIDE_SWING=-100  WX_SUM=+49  TIDE_SPOT=+14  WX_SPOT=+73  LON_ETF=-100 | PnL: total=-565821.1 (unreal=-565821.1, real=+0.0)
+15:18:22 [INFO] algothon.options: OPT: Sell FLY @ 59382.0 (model=6140)
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x4 @ 2453; SELL x5 @ 2511; BUY x2 @ 2424; SELL x2 @ 2540
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 271; SELL x1 @ 299; BUY x1 @ 257; SELL x1 @ 312
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x1 @ 4416; SELL x5 @ 4433; BUY x1 @ 4409; SELL x2 @ 4441
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3337; SELL x3 @ 3359; BUY x1 @ 3326; SELL x1 @ 3370
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x5 @ 3138; SELL x4 @ 3179; BUY x2 @ 3118; SELL x2 @ 3199
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 194; SELL x1 @ 245; BUY x1 @ 169; SELL x1 @ 270
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 10050; SELL x1 @ 10146; BUY x2 @ 10003; SELL x1 @ 10194; BUY x1 @ 9955; SELL x1 @ 10242
+15:18:22 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 6089; SELL x2 @ 6217; BUY x1 @ 6025; SELL x1 @ 6280; SELL x3 @ 59382.0
+15:18:22 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x4 @ 2453; TIDE_SPOT SELL x5 @ 2511; TIDE_SPOT BUY x2 @ 2424; TIDE_SPOT SELL x2 @ 2540
+15:18:22 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+15:18:23 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 271; TIDE_SWING SELL x1 @ 299; TIDE_SWING BUY x1 @ 257; TIDE_SWING SELL x1 @ 312
+15:18:24 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 2/9
+15:18:25 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x1 @ 4416; WX_SPOT SELL x5 @ 4433; WX_SPOT BUY x1 @ 4409; WX_SPOT SELL x2 @ 4441
+15:18:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+15:18:27 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3337; WX_SUM SELL x3 @ 3359; WX_SUM BUY x1 @ 3326; WX_SUM SELL x1 @ 3370
+15:18:27 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+15:18:28 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x5 @ 3138; LHR_COUNT SELL x4 @ 3179; LHR_COUNT BUY x2 @ 3118; LHR_COUNT SELL x2 @ 3199
