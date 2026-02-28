@@ -39,8 +39,8 @@ logger.addHandler(fh)
 # ── Config ───────────────────────────────────────────────────────────────────
 
 EXCHANGE_URL    = "http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/"
-USERNAME        = "testhamza1"
-PASSWORD        = "testhamza1"
+USERNAME        = "testhamzaloglog"
+PASSWORD        = "testhamzaloglog"
 AERODATABOX_KEY = "0a7ff9f16fmsh54fb7da32af7310p12b89fjsn800a543a8628"
 
 # London is UTC+0 in winter (GMT), UTC+1 in summer (BST)

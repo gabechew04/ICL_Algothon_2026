@@ -337,14 +337,42 @@ class AlgothonBot(BaseBot):
 '''
         with self.html_log_path.open("w", encoding="utf-8") as f:
             f.write(header)
+            
     def _log_status(self):
+        # Positions non nulles
         positions = {k: v for k, v in self.risk.state.positions.items() if abs(v) > 0}
         pos_str = (
             "  ".join(f"{k}={int(round(float(v))):+d}" for k, v in positions.items())
             if positions else "flat"
         )
+
+        # PnL local (mark-to-market)
         total, unreal, real = self._compute_pnl()
-        log.info(
-            f"Positions: {pos_str} | "
-            f"PnL: total={total:+.1f} (unreal={unreal:+.1f}, real={real:+.1f})"
-        )
+
+        # PnL officiel exchange
+        exch_total = None
+        try:
+            pnl_dict = self.get_pnl()  # <-- API call
+            if isinstance(pnl_dict, dict):
+                # adapte selon le champ exact renvoyé par l’API
+                exch_total = (
+                    pnl_dict.get("totalProfit")
+                    or pnl_dict.get("profit")
+                    or pnl_dict.get("pnl")
+                )
+        except Exception as e:
+            log.warning(f"Exchange PnL fetch failed: {e}")
+
+        if exch_total is not None:
+            log.info(
+                f"Positions: {pos_str} | "
+                f"LocalPnL={total:+.1f} "
+                f"(U={unreal:+.1f}, R={real:+.1f}) | "
+                f"ExchangePnL={float(exch_total):+.1f}"
+            )
+        else:
+            log.info(
+                f"Positions: {pos_str} | "
+                f"LocalPnL={total:+.1f} "
+                f"(U={unreal:+.1f}, R={real:+.1f})"
+            )
