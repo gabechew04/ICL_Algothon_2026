@@ -1,0 +1,39 @@
+"""
+run.py — Entry point. Configure credentials and session window, then start the bot.
+"""
+
+from datetime import datetime, timedelta, timezone
+from bot import AlgothonBot
+
+# ── Config ────────────────────────────────────────────────────────────────────
+
+EXCHANGE_URL    = "http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/"
+USERNAME        = "testhamza"
+PASSWORD        = "testhamza"
+AERODATABOX_KEY = "0a7ff9f16fmsh54fb7da32af7310p12b89fjsn800a543a8628"
+
+# London is UTC+0 in winter (GMT), UTC+1 in summer (BST)
+# Late February = GMT → UTC+0
+LONDON_TZ     = timezone(timedelta(hours=0))
+SESSION_START = datetime(2026, 2, 28, 12, 0, 0, tzinfo=LONDON_TZ)
+SESSION_END   = datetime(2026, 3,  1, 12, 0, 0, tzinfo=LONDON_TZ)
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+if __name__ == "__main__":
+    bot = AlgothonBot(
+        cmi_url=EXCHANGE_URL,
+        username=USERNAME,
+        password=PASSWORD,
+        aero_key=AERODATABOX_KEY,
+        session_start=SESSION_START,
+        session_end=SESSION_END,
+        loop_interval=5.0,
+        data_interval=120.0,
+    )
+
+    print("Starting bot — press Ctrl+C to stop.")
+    try:
+        bot.run()
+    except KeyboardInterrupt:
+        print("\nStopped.")

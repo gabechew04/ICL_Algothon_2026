@@ -963,6 +963,63 @@ class AlgothonBot(BaseBot):
         if bids and asks:
             return (max(bids) + min(asks)) / 2
         return None
+    
+    def _mark_price(self, product: str) -> Optional[float]:
+        """
+        Mark = mid if both sides exist, else best bid/ask, else None.
+        """
+        ob = self._orderbooks.get(product)
+        if ob is None:
+            return None
+
+        bids = [o.price for o in ob.buy_orders if (o.volume - o.own_volume) > 0]
+        asks = [o.price for o in ob.sell_orders if (o.volume - o.own_volume) > 0]
+
+        if bids and asks:
+            return (max(bids) + min(asks)) / 2
+        if bids:
+            return max(bids)
+        if asks:
+            return min(asks)
+        return None
+
+
+    def _compute_pnl(self) -> tuple[float, float, float]:
+        """
+        Returns (total_pnl, unrealized_pnl, realized_pnl).
+        Realized is 0 unless you implement realized tracking.
+        """
+        unreal = 0.0
+
+        # If you later implement realized tracking, keep this:
+        realized = float(sum(self.risk.state.realized_pnl.values())) if hasattr(self.risk.state, "realized_pnl") else 0.0
+
+        # Unrealized from avg_entry vs mark
+        for product, pos in self.risk.state.positions.items():
+            if abs(pos) == 0:
+                continue
+
+            try:
+                pos_i = int(round(float(pos)))
+            except Exception:
+                continue
+
+            if pos_i == 0:
+                continue
+
+            mark = self._mark_price(product)
+            if mark is None:
+                continue
+
+            avg = float(self.risk.state.avg_entry.get(product, 0.0))
+            if avg == 0.0:
+                # No entry price yet -> skip unreal for safety
+                continue
+
+            unreal += pos_i * (float(mark) - avg)
+
+        total = realized + unreal
+        return total, unreal, realized
 
     def _send_rate_limited(self, orders: list[OrderRequest]):
         """Send orders respecting 1 req/sec rate limit.
@@ -997,10 +1054,20 @@ class AlgothonBot(BaseBot):
             log.info(f"  {sym:<12} FV={fv:>8.0f}  conf={conf:.2f}")
 
     def _log_status(self):
-        positions = {k: v for k, v in self.risk.state.positions.items() if v != 0}
-        if positions:
-            pos_str = "  ".join(f"{k}={v:+d}" for k, v in positions.items())
-            log.info(f"Positions: {pos_str}")
+        positions = {k: v for k, v in self.risk.state.positions.items() if abs(v) > 0}
+
+        def fmt_pos(x):
+            try:
+                xi = int(round(float(x)))
+            except Exception:
+                return str(x)
+            return f"{xi:+d}"
+
+        pos_str = "  ".join(f"{k}={fmt_pos(v)}" for k, v in positions.items()) if positions else "flat"
+
+        total, unreal, realized = self._compute_pnl()
+
+        log.info(f"Positions: {pos_str} | PnL: total={total:+.1f} (unreal={unreal:+.1f}, real={realized:+.1f})")
 
 
 # =============================================================================
@@ -1011,8 +1078,8 @@ if __name__ == "__main__":
     from datetime import datetime, timedelta, timezone
 
     EXCHANGE_URL = "http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/"
-    USERNAME = "stopLossIOQ"
-    PASSWORD = "stopLOSSimccmi"
+    USERNAME = "testhamza"
+    PASSWORD = "testhamza"
     AERODATABOX_KEY = "0a7ff9f16fmsh54fb7da32af7310p12b89fjsn800a543a8628"
 
     # London is UTC+0 in winter (GMT), UTC+1 in summer (BST)
