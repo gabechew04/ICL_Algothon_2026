@@ -6323,3 +6323,9 @@
 21:11:50 [bot     ] 📤 Sending 1 orders
 21:11:50 [TRADES  ] 💰 FILL: BOUGHT LHR_COUNT × 2 @ 2643.0
 21:12:00 [bot     ] 📈 Status: LON_FLY=+100 | LHR_COUNT=-1 | LHR_INDEX=-79 | TIDE_SWING=-100 | WX_SUM=+11 | TIDE_SPOT=+36 | WX_SPOT=+100 | LON_ETF=+100 | trades=2031 PnL={'user': 'zab', 'totalProfit': 958536.0, 'details': [{'product': 'LON_FLY', 'profit': 515232.0}, {'product': 'LHR_COUNT', 'profit': 298143.0}, {'product': 'LHR_INDEX', 'profit': -3062.0}, {'product': 'TIDE_SWING', 'profit': 12948.0}, {'product': 'WX_SUM', 'profit': 50503.0}, {'product': 'TIDE_SPOT', 'profit': 104073.0}, {'product': 'WX_SPOT', 'profit': 38355.0}, {'product': 'LON_ETF', 'profit': -57656.0}]}
+21:12:42 [TRADES  ] 🟢 ALPHA BUY LHR_COUNT × 2 @ 2644.0 | FV=3566 edge=+922 conf=0.5
+21:12:42 [bot     ] 📤 Sending 1 orders
+21:13:06 [bot     ] 📡 Weather: 192 points fetched
+21:13:09 [bot     ] 📡 Thames: 200 readings fetched
+21:13:09 [bot     ] 📊 FV: TIDE_SPOT=2495(c=0.4) | TIDE_SWING=478(c=0.5) | WX_SPOT=4495(c=0.9) | WX_SUM=3328(c=0.6) | LHR_COUNT=3566(c=0.5) | LHR_INDEX=328(c=0.3) | LON_ETF=10556(c=0.4) | LON_FLY=7113(c=0.2)
+21:14:03 [bot     ] 📈 Status: LON_FLY=+100 | LHR_COUNT=-1 | LHR_INDEX=-79 | TIDE_SWING=-100 | WX_SUM=+11 | TIDE_SPOT=+36 | WX_SPOT=+100 | LON_ETF=+100 | trades=2031 PnL={'user': 'zab', 'totalProfit': 936044.0, 'details': [{'product': 'LON_FLY', 'profit': 515232.0}, {'product': 'LHR_COUNT', 'profit': 298143.0}, {'product': 'LHR_INDEX', 'profit': -3062.0}, {'product': 'TIDE_SWING', 'profit': 12948.0}, {'product': 'WX_SUM', 'profit': 31143.0}, {'product': 'TIDE_SPOT', 'profit': 100941.0}, {'product': 'WX_SPOT', 'profit': 38355.0}, {'product': 'LON_ETF', 'profit': -57656.0}]}
