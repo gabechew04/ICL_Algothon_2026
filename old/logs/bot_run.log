@@ -7174,3 +7174,703 @@
 16:27:52 [INFO] algothon.bot: Keyboard interrupt received
 16:27:52 [INFO] algothon.bot: Shutting down...
 16:27:59 [INFO] algothon.bot: Bot stopped.
+09:26:52 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+09:26:52 [INFO] algothon.bot:   ALGOTHON BOT STARTING
+09:26:52 [INFO] algothon.bot:   Session: 2026-02-28 12:00:00+00:00 → 2026-03-01 12:00:00+00:00
+09:26:52 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+09:26:52 [INFO] algothon.bot: Products discovered: ['TIDE_SPOT', 'TIDE_SWING', 'WX_SPOT', 'WX_SUM', 'LHR_COUNT', 'LHR_INDEX', 'LON_ETF', 'LON_FLY']
+09:26:53 [INFO] algothon.data: Weather: 192 rows fetched
+09:26:53 [INFO] algothon.data: Thames: 200 readings fetched
+09:26:53 [INFO] algothon.data: Flights: 726 arrivals, 564 departures
+09:26:53 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+09:26:53 [INFO] algothon.bot:   LHR_COUNT    FV=    1290  conf=0.50
+09:26:53 [INFO] algothon.bot:   LHR_INDEX    FV=     603  conf=0.30
+09:26:53 [INFO] algothon.bot:   LON_ETF      FV=    8521  conf=0.50
+09:26:53 [INFO] algothon.bot:   LON_FLY      FV=    3040  conf=0.30
+09:26:53 [INFO] algothon.bot:   TIDE_SPOT    FV=    2733  conf=0.81
+09:26:53 [INFO] algothon.bot:   TIDE_SWING   FV=     489  conf=0.82
+09:26:53 [INFO] algothon.bot:   WX_SPOT      FV=    4498  conf=0.95
+09:26:53 [INFO] algothon.bot:   WX_SUM       FV=    3279  conf=0.85
+09:26:53 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+09:26:53 [INFO] algothon.bot:   LHR_COUNT    FV=    1290  conf=0.50
+09:26:53 [INFO] algothon.bot:   LHR_INDEX    FV=     603  conf=0.30
+09:26:53 [INFO] algothon.bot:   LON_ETF      FV=    8521  conf=0.50
+09:26:53 [INFO] algothon.bot:   LON_FLY      FV=    3044  conf=0.30
+09:26:53 [INFO] algothon.bot:   TIDE_SPOT    FV=    2733  conf=0.81
+09:26:53 [INFO] algothon.bot:   TIDE_SWING   FV=     489  conf=0.82
+09:26:53 [INFO] algothon.bot:   WX_SPOT      FV=    4498  conf=0.95
+09:26:53 [INFO] algothon.bot:   WX_SUM       FV=    3279  conf=0.85
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2725; SELL x3 @ 2744; BUY x2 @ 2715; SELL x1 @ 2753
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 483; SELL x2 @ 496; BUY x1 @ 477; SELL x1 @ 502
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4490; SELL x4 @ 4507; BUY x2 @ 4482; SELL x2 @ 4515
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3284; BUY x1 @ 3265; SELL x1 @ 3289
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x4 @ 1269; SELL x5 @ 1310; BUY x2 @ 1249; SELL x2 @ 1330
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x3 @ 577; SELL x3 @ 628; BUY x1 @ 552; SELL x1 @ 653
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8496; SELL x4 @ 8547; BUY x2 @ 8471; SELL x2 @ 8572; BUY x1 @ 8446; SELL x1 @ 8597
+09:26:54 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3010; SELL x3 @ 3078; BUY x1 @ 2977; SELL x1 @ 3111
+09:26:54 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2725; TIDE_SPOT SELL x3 @ 2744; TIDE_SPOT BUY x2 @ 2715; TIDE_SPOT SELL x1 @ 2753
+09:26:55 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:26:56 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  5x @ 4517
+09:26:56 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 483; TIDE_SWING SELL x2 @ 496; TIDE_SWING BUY x1 @ 477; TIDE_SWING SELL x1 @ 502
+09:26:56 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 509
+09:26:57 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:26:58 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 496
+09:26:58 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 502
+09:26:58 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4490; WX_SPOT SELL x4 @ 4507; WX_SPOT BUY x2 @ 4482; WX_SPOT SELL x2 @ 4515
+09:26:58 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  4x @ 4517
+09:26:58 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  1x @ 4517
+09:26:58 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+09:26:58 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  1x @ 4517
+09:26:59 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3271; WX_SUM SELL x3 @ 3284; WX_SUM BUY x1 @ 3265; WX_SUM SELL x1 @ 3289
+09:26:59 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+09:27:00 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 1269; LHR_COUNT SELL x5 @ 1310; LHR_COUNT BUY x2 @ 1249; LHR_COUNT SELL x2 @ 1330
+09:27:01 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 2x @ 1195
+09:27:01 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+09:27:01 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 4x @ 1195
+09:27:01 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  5x @ 4518
+09:27:02 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x3 @ 577; LHR_INDEX SELL x3 @ 628; LHR_INDEX BUY x1 @ 552; LHR_INDEX SELL x1 @ 653
+09:27:03 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 3x @ 158
+09:27:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+09:27:03 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 158
+09:27:04 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 8496; LON_ETF SELL x4 @ 8547; LON_ETF BUY x2 @ 8471; LON_ETF SELL x2 @ 8572
+09:27:04 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+09:27:05 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8446; LON_ETF SELL x1 @ 8597; LON_FLY BUY x3 @ 3010; LON_FLY SELL x3 @ 3078
+09:27:05 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+09:27:05 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] FILL: SOLD  1.0x @ 8597
+09:27:06 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 2977; LON_FLY SELL x1 @ 3111
+09:27:06 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+09:27:06 [INFO] algothon.bot: Positions: LHR_COUNT=+9  TIDE_SWING=-23  WX_SUM=+45  TIDE_SPOT=-21  WX_SPOT=-31  LON_ETF=-3  LHR_INDEX=+4 | LocalPnL=-92010.5 (U=-92010.5, R=+0.0) | ExchangePnL=-29234.0
+09:27:06 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  3x @ 3078
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] FILL: BOUGHT 4x @ 3267
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2725; SELL x3 @ 2744; BUY x2 @ 2716; SELL x1 @ 2754
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 483; SELL x2 @ 497; BUY x1 @ 477; SELL x1 @ 503
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4491; SELL x3 @ 4508; BUY x2 @ 4483; SELL x1 @ 4516
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3283; BUY x1 @ 3265; SELL x1 @ 3289
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x4 @ 1268; SELL x5 @ 1309; BUY x2 @ 1248; SELL x2 @ 1329
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x2 @ 577; SELL x3 @ 628; BUY x1 @ 552; SELL x1 @ 653
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8497; SELL x4 @ 8548; BUY x2 @ 8472; SELL x2 @ 8573; BUY x1 @ 8447; SELL x1 @ 8598
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3011; SELL x2 @ 3078; BUY x1 @ 2977; SELL x1 @ 3112
+09:27:09 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2725; TIDE_SPOT SELL x3 @ 2744; TIDE_SPOT BUY x2 @ 2716; TIDE_SPOT SELL x1 @ 2754
+09:27:09 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  3x @ 2972.0
+09:27:10 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:27:11 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 483; TIDE_SWING SELL x2 @ 497; TIDE_SWING BUY x1 @ 477; TIDE_SWING SELL x1 @ 503
+09:27:11 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:27:12 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4491; WX_SPOT SELL x3 @ 4508; WX_SPOT BUY x2 @ 4483; WX_SPOT SELL x1 @ 4516
+09:27:13 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  3x @ 4514
+09:27:13 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+09:27:14 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3271; WX_SUM SELL x3 @ 3283; WX_SUM BUY x1 @ 3265; WX_SUM SELL x1 @ 3289
+09:27:14 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  1x @ 4514
+09:27:15 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] FILL: BOUGHT 1x @ 3267
+09:27:15 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+09:27:16 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 1268; LHR_COUNT SELL x5 @ 1309; LHR_COUNT BUY x2 @ 1248; LHR_COUNT SELL x2 @ 1329
+09:27:16 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+09:27:17 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x2 @ 577; LHR_INDEX SELL x3 @ 628; LHR_INDEX BUY x1 @ 552; LHR_INDEX SELL x1 @ 653
+09:27:18 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 2x @ 159
+09:27:18 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+09:27:19 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 8497; LON_ETF SELL x4 @ 8548; LON_ETF BUY x2 @ 8472; LON_ETF SELL x2 @ 8573
+09:27:20 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+09:27:20 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  4x @ 4514
+09:27:21 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8447; LON_ETF SELL x1 @ 8598; LON_FLY BUY x3 @ 3011; LON_FLY SELL x2 @ 3078
+09:27:22 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] FILL: SOLD  1x @ 8745
+09:27:22 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+09:27:23 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 2977; LON_FLY SELL x1 @ 3112
+09:27:23 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+09:27:24 [INFO] algothon.bot: Positions: LHR_COUNT=+9  LON_FLY=-3  LHR_INDEX=+6  TIDE_SWING=-23  WX_SUM=+51  TIDE_SPOT=-28  WX_SPOT=-39  LON_ETF=-10 | LocalPnL=-52812.5 (U=-52812.5, R=+0.0) | ExchangePnL=-32010.0
+09:27:24 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 3078
+09:27:24 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  1x @ 3112
+09:27:26 [INFO] algothon.options: OPT: Sell FLY @ 3498.0 (model=3044)
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2725; SELL x3 @ 2745; BUY x2 @ 2716; SELL x1 @ 2754
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 484; SELL x2 @ 497; BUY x1 @ 477; SELL x1 @ 503
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4492; SELL x2 @ 4509; BUY x2 @ 4484; SELL x1 @ 4517
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3283; BUY x1 @ 3265; SELL x1 @ 3289
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x4 @ 1268; SELL x5 @ 1309; BUY x2 @ 1248; SELL x2 @ 1329
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x2 @ 576; SELL x3 @ 627; BUY x1 @ 551; SELL x1 @ 652
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8498; SELL x4 @ 8549; BUY x2 @ 8473; SELL x2 @ 8574; BUY x1 @ 8448; SELL x1 @ 8599
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 3011; SELL x2 @ 3079; BUY x1 @ 2978; SELL x1 @ 3112; SELL x3 @ 3498.0
+09:27:26 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2725; TIDE_SPOT SELL x3 @ 2745; TIDE_SPOT BUY x2 @ 2716; TIDE_SPOT SELL x1 @ 2754
+09:27:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:27:26 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  2x @ 4514
+09:27:27 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 484; TIDE_SWING SELL x2 @ 497; TIDE_SWING BUY x1 @ 477; TIDE_SWING SELL x1 @ 503
+09:27:28 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  2x @ 497
+09:27:28 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:27:28 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 503
+09:27:29 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4492; WX_SPOT SELL x2 @ 4509; WX_SPOT BUY x2 @ 4484; WX_SPOT SELL x1 @ 4517
+09:27:30 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+09:27:31 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3271; WX_SUM SELL x3 @ 3283; WX_SUM BUY x1 @ 3265; WX_SUM SELL x1 @ 3289
+09:27:32 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+09:27:33 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 5x @ 4541
+09:27:33 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x4 @ 1268; LHR_COUNT SELL x5 @ 1309; LHR_COUNT BUY x2 @ 1248; LHR_COUNT SELL x2 @ 1329
+09:27:34 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 2x @ 1202
+09:27:34 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+09:27:34 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 4x @ 1202
+09:27:35 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x2 @ 576; LHR_INDEX SELL x3 @ 627; LHR_INDEX BUY x1 @ 551; LHR_INDEX SELL x1 @ 652
+09:27:35 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 2x @ 159
+09:27:35 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+09:27:35 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 159
+09:27:36 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 8498; LON_ETF SELL x4 @ 8549; LON_ETF BUY x2 @ 8473; LON_ETF SELL x2 @ 8574
+09:27:38 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+09:27:39 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8448; LON_ETF SELL x1 @ 8599; LON_FLY BUY x3 @ 3011; LON_FLY SELL x2 @ 3079
+09:27:39 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 3501
+09:27:39 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] FILL: SOLD  1x @ 8724
+09:27:39 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+09:27:40 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 2978; LON_FLY SELL x1 @ 3112; LON_FLY SELL x3 @ 3498.0
+09:27:41 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  1x @ 3478
+09:27:41 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+09:27:41 [INFO] algothon.bot: Positions: LHR_COUNT=+21  LON_FLY=-9  LHR_INDEX=+10  TIDE_SWING=-29  WX_SUM=+50  TIDE_SPOT=-29  WX_SPOT=-45  LON_ETF=-17 | LocalPnL=-98165.6 (U=-98165.6, R=+0.0) | ExchangePnL=-33143.0
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2725; SELL x3 @ 2745; BUY x2 @ 2716; SELL x1 @ 2754
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 484; SELL x2 @ 497; BUY x1 @ 478; SELL x1 @ 503
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4492; SELL x2 @ 4509; BUY x2 @ 4484; SELL x1 @ 4517
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3284; BUY x1 @ 3265; SELL x1 @ 3289
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x3 @ 1267; SELL x5 @ 1308; BUY x1 @ 1247; SELL x2 @ 1328
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x2 @ 576; SELL x3 @ 627; BUY x1 @ 551; SELL x1 @ 652
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8499; SELL x3 @ 8550; BUY x2 @ 8474; SELL x1 @ 8575; BUY x1 @ 8449; SELL x1 @ 8600
+09:27:43 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3012; SELL x2 @ 3079; BUY x1 @ 2978; SELL x1 @ 3113
+09:27:43 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2725; TIDE_SPOT SELL x3 @ 2745; TIDE_SPOT BUY x2 @ 2716; TIDE_SPOT SELL x1 @ 2754
+09:27:44 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:27:45 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 484; TIDE_SWING SELL x2 @ 497; TIDE_SWING BUY x1 @ 478; TIDE_SWING SELL x1 @ 503
+09:27:45 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 508
+09:27:45 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:27:45 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  2x @ 508
+09:27:46 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4492; WX_SPOT SELL x2 @ 4509; WX_SPOT BUY x2 @ 4484; WX_SPOT SELL x1 @ 4517
+09:27:47 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+09:27:47 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] FILL: BOUGHT 5x @ 3277
+09:27:48 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3271; WX_SUM SELL x3 @ 3284; WX_SUM BUY x1 @ 3265; WX_SUM SELL x1 @ 3289
+09:27:49 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+09:27:50 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x3 @ 1267; LHR_COUNT SELL x5 @ 1308; LHR_COUNT BUY x1 @ 1247; LHR_COUNT SELL x2 @ 1328
+09:27:51 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+09:27:52 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x2 @ 576; LHR_INDEX SELL x3 @ 627; LHR_INDEX BUY x1 @ 551; LHR_INDEX SELL x1 @ 652
+09:27:53 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 2x @ 159
+09:27:53 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+09:27:53 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 159
+09:27:53 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 5x @ 4607.0
+09:27:54 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 8499; LON_ETF SELL x3 @ 8550; LON_ETF BUY x2 @ 8474; LON_ETF SELL x1 @ 8575
+09:27:54 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+09:27:55 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8449; LON_ETF SELL x1 @ 8600; LON_FLY BUY x3 @ 3012; LON_FLY SELL x2 @ 3079
+09:27:56 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] FILL: SOLD  1x @ 8721
+09:27:56 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 3450
+09:27:56 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+09:27:57 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 2978; LON_FLY SELL x1 @ 3113
+09:27:57 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+09:27:58 [INFO] algothon.bot: Positions: LHR_COUNT=+21  LON_FLY=-11  LHR_INDEX=+13  TIDE_SWING=-32  WX_SUM=+50  TIDE_SPOT=-33  WX_SPOT=-45  LON_ETF=-24 | LocalPnL=-155173.7 (U=-155173.7, R=+0.0) | ExchangePnL=-32410.0
+09:27:59 [INFO] algothon.options: OPT: Sell FLY @ 3450.0 (model=3043)
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2726; SELL x3 @ 2745; BUY x2 @ 2716; SELL x1 @ 2754
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 484; SELL x2 @ 497; BUY x1 @ 478; SELL x1 @ 503
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4492; SELL x2 @ 4508; BUY x2 @ 4484; SELL x1 @ 4516
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3283; BUY x1 @ 3265; SELL x1 @ 3289
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x3 @ 1267; SELL x5 @ 1307; BUY x1 @ 1247; SELL x2 @ 1327
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x2 @ 575; SELL x3 @ 626; BUY x1 @ 550; SELL x1 @ 651
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8500; SELL x3 @ 8551; BUY x2 @ 8475; SELL x1 @ 8576; BUY x1 @ 8450; SELL x1 @ 8601
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x3 @ 3012; SELL x2 @ 3080; BUY x1 @ 2979; SELL x1 @ 3113; SELL x3 @ 3450.0
+09:27:59 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2726; TIDE_SPOT SELL x3 @ 2745; TIDE_SPOT BUY x2 @ 2716; TIDE_SPOT SELL x1 @ 2754
+09:27:59 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:27:59 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  5x @ 4518
+09:28:00 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 484; TIDE_SWING SELL x2 @ 497; TIDE_SWING BUY x1 @ 478; TIDE_SWING SELL x1 @ 503
+09:28:02 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  2x @ 498
+09:28:02 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:28:03 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4492; WX_SPOT SELL x2 @ 4508; WX_SPOT BUY x2 @ 4484; WX_SPOT SELL x1 @ 4516
+09:28:03 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+09:28:04 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3271; WX_SUM SELL x3 @ 3283; WX_SUM BUY x1 @ 3265; WX_SUM SELL x1 @ 3289
+09:28:05 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+09:28:06 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x3 @ 1267; LHR_COUNT SELL x5 @ 1307; LHR_COUNT BUY x1 @ 1247; LHR_COUNT SELL x2 @ 1327
+09:28:07 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] FILL: SOLD  4x @ 3267.0
+09:28:07 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 3x @ 1204
+09:28:07 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+09:28:07 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 1x @ 1204
+09:28:08 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x2 @ 575; LHR_INDEX SELL x3 @ 626; LHR_INDEX BUY x1 @ 550; LHR_INDEX SELL x1 @ 651
+09:28:08 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+09:28:09 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 8500; LON_ETF SELL x3 @ 8551; LON_ETF BUY x2 @ 8475; LON_ETF SELL x1 @ 8576
+09:28:11 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+09:28:12 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8450; LON_ETF SELL x1 @ 8601; LON_FLY BUY x3 @ 3012; LON_FLY SELL x2 @ 3080
+09:28:12 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: SOLD  2x @ 3470
+09:28:12 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] FILL: SOLD  1x @ 8718
+09:28:12 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+09:28:12 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  2x @ 4523
+09:28:12 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  2x @ 4523
+09:28:13 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 2979; LON_FLY SELL x1 @ 3113; LON_FLY SELL x3 @ 3450.0
+09:28:13 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] FILL: BOUGHT 4x @ 3274
+09:28:14 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+09:28:14 [INFO] algothon.bot: Positions: LHR_COUNT=+29  LON_FLY=-14  LHR_INDEX=+13  TIDE_SWING=-34  WX_SUM=+50  TIDE_SPOT=-37  WX_SPOT=-52  LON_ETF=-29 | LocalPnL=-191276.5 (U=-191276.5, R=+0.0) | ExchangePnL=-33622.0
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2726; SELL x2 @ 2745; BUY x2 @ 2716; SELL x1 @ 2755
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 484; SELL x1 @ 497; BUY x1 @ 478; SELL x1 @ 503
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4492; SELL x2 @ 4509; BUY x2 @ 4484; SELL x1 @ 4517
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3283; BUY x1 @ 3265; SELL x1 @ 3289
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x3 @ 1266; SELL x5 @ 1307; BUY x1 @ 1246; SELL x2 @ 1327
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x2 @ 575; SELL x3 @ 626; BUY x1 @ 550; SELL x1 @ 651
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8501; SELL x3 @ 8552; BUY x2 @ 8476; SELL x1 @ 8577; BUY x1 @ 8451; SELL x1 @ 8602
+09:28:16 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3013; SELL x2 @ 3080; BUY x1 @ 2979; SELL x1 @ 3114
+09:28:16 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2726; TIDE_SPOT SELL x2 @ 2745; TIDE_SPOT BUY x2 @ 2716; TIDE_SPOT SELL x1 @ 2755
+09:28:17 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:28:18 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 484; TIDE_SWING SELL x1 @ 497; TIDE_SWING BUY x1 @ 478; TIDE_SWING SELL x1 @ 503
+09:28:19 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:28:20 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] FILL: SOLD  5x @ 3273
+09:28:20 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4492; WX_SPOT SELL x2 @ 4509; WX_SPOT BUY x2 @ 4484; WX_SPOT SELL x1 @ 4517
+09:28:21 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  2x @ 4523
+09:28:21 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+09:28:22 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3271; WX_SUM SELL x3 @ 3283; WX_SUM BUY x1 @ 3265; WX_SUM SELL x1 @ 3289
+09:28:24 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+09:28:25 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x3 @ 1266; LHR_COUNT SELL x5 @ 1307; LHR_COUNT BUY x1 @ 1246; LHR_COUNT SELL x2 @ 1327
+09:28:26 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 1x @ 1204
+09:28:26 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  2x @ 4523
+09:28:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+09:28:27 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x2 @ 575; LHR_INDEX SELL x3 @ 626; LHR_INDEX BUY x1 @ 550; LHR_INDEX SELL x1 @ 651
+09:28:27 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 165
+09:28:27 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+09:28:27 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 165
+09:28:27 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 165
+09:28:28 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x5 @ 8501; LON_ETF SELL x3 @ 8552; LON_ETF BUY x2 @ 8476; LON_ETF SELL x1 @ 8577
+09:28:28 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] FILL: SOLD  3x @ 8709
+09:28:29 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 7/9
+09:28:30 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8451; LON_ETF SELL x1 @ 8602; LON_FLY BUY x3 @ 3013; LON_FLY SELL x2 @ 3080
+09:28:31 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 8/9
+09:28:32 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 2979; LON_FLY SELL x1 @ 3114
+09:28:32 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 5x @ 4539
+09:28:32 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+09:28:33 [INFO] algothon.bot: Positions: LHR_COUNT=+30  LON_FLY=-14  LHR_INDEX=+19  TIDE_SWING=-35  WX_SUM=+45  TIDE_SPOT=-41  WX_SPOT=-49  LON_ETF=-36 | LocalPnL=-223311.2 (U=-223311.2, R=+0.0) | ExchangePnL=-37962.0
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x5 @ 2726; SELL x2 @ 2745; BUY x2 @ 2717; SELL x1 @ 2755
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x3 @ 484; SELL x1 @ 497; BUY x1 @ 478; SELL x1 @ 503
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4492; SELL x2 @ 4509; BUY x2 @ 4484; SELL x1 @ 4516
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3271; SELL x3 @ 3283; BUY x1 @ 3265; SELL x1 @ 3289
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x3 @ 1266; SELL x5 @ 1307; BUY x1 @ 1246; SELL x2 @ 1327
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x2 @ 574; SELL x3 @ 625; BUY x1 @ 549; SELL x1 @ 650
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x5 @ 8501; SELL x3 @ 8552; BUY x2 @ 8476; SELL x1 @ 8577; BUY x1 @ 8451; SELL x1 @ 8602
+09:28:34 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3014; SELL x2 @ 3081; BUY x1 @ 2980; SELL x1 @ 3115
+09:28:34 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x5 @ 2726; TIDE_SPOT SELL x2 @ 2745; TIDE_SPOT BUY x2 @ 2717; TIDE_SPOT SELL x1 @ 2755
+09:28:35 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+09:28:36 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x3 @ 484; TIDE_SWING SELL x1 @ 497; TIDE_SWING BUY x1 @ 478; TIDE_SWING SELL x1 @ 503
+09:28:36 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 509
+09:28:36 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+09:28:36 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 509
+09:28:37 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4492; WX_SPOT SELL x2 @ 4509; WX_SPOT BUY x2 @ 4484; WX_SPOT SELL x1 @ 4516
+09:28:38 [INFO] algothon.bot: Keyboard interrupt received
+09:28:38 [INFO] algothon.bot: Shutting down...
+09:28:38 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  1x @ 4531
+09:28:39 [INFO] algothon.bot: Bot stopped.
+10:51:21 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+10:51:21 [INFO] algothon.bot:   ALGOTHON BOT STARTING
+10:51:21 [INFO] algothon.bot:   Session: 2026-02-28 12:00:00+00:00 → 2026-03-01 12:00:00+00:00
+10:51:21 [INFO] algothon.bot: ════════════════════════════════════════════════════════════
+10:51:21 [INFO] algothon.bot: Products discovered: ['TIDE_SPOT', 'TIDE_SWING', 'WX_SPOT', 'WX_SUM', 'LHR_COUNT', 'LHR_INDEX', 'LON_ETF', 'LON_FLY']
+10:51:21 [INFO] algothon.data: Weather: 192 rows fetched
+10:51:23 [INFO] algothon.data: Thames: 200 readings fetched
+10:51:23 [INFO] algothon.data: Flights: 926 arrivals, 688 departures
+10:51:23 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+10:51:23 [INFO] algothon.bot:   LHR_COUNT    FV=    1614  conf=0.50
+10:51:23 [INFO] algothon.bot:   LHR_INDEX    FV=     708  conf=0.30
+10:51:23 [INFO] algothon.bot:   LON_ETF      FV=    8847  conf=0.50
+10:51:23 [INFO] algothon.bot:   LON_FLY      FV=    3704  conf=0.30
+10:51:23 [INFO] algothon.bot:   TIDE_SPOT    FV=    2668  conf=0.85
+10:51:23 [INFO] algothon.bot:   TIDE_SWING   FV=     518  conf=0.86
+10:51:23 [INFO] algothon.bot:   WX_SPOT      FV=    4565  conf=0.95
+10:51:23 [INFO] algothon.bot:   WX_SUM       FV=    3284  conf=0.88
+10:51:23 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+10:51:23 [INFO] algothon.bot:   LHR_COUNT    FV=    1614  conf=0.50
+10:51:23 [INFO] algothon.bot:   LHR_INDEX    FV=     708  conf=0.30
+10:51:23 [INFO] algothon.bot:   LON_ETF      FV=    8847  conf=0.50
+10:51:23 [INFO] algothon.bot:   LON_FLY      FV=    3698  conf=0.30
+10:51:23 [INFO] algothon.bot:   TIDE_SPOT    FV=    2668  conf=0.85
+10:51:23 [INFO] algothon.bot:   TIDE_SWING   FV=     518  conf=0.86
+10:51:23 [INFO] algothon.bot:   WX_SPOT      FV=    4565  conf=0.95
+10:51:23 [INFO] algothon.bot:   WX_SUM       FV=    3284  conf=0.88
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2672; BUY x1 @ 2645; SELL x2 @ 2681
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 669; SELL x3 @ 720; BUY x1 @ 644; SELL x1 @ 745
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+10:51:27 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3665; SELL x2 @ 3733; BUY x1 @ 3632; SELL x1 @ 3766
+10:51:27 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2672; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+10:51:28 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+10:51:29 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+10:51:30 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+10:51:31 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+10:51:31 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+10:51:32 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+10:51:33 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+10:51:34 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+10:51:35 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+10:51:36 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 669; LHR_INDEX SELL x3 @ 720; LHR_INDEX BUY x1 @ 644; LHR_INDEX SELL x1 @ 745
+10:51:37 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+10:51:38 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+10:51:40 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+10:51:41 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3665; LON_FLY SELL x2 @ 3733
+10:51:42 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+10:51:43 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3632; LON_FLY SELL x1 @ 3766
+10:51:43 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+10:51:44 [INFO] algothon.bot: Positions: LHR_COUNT=+95  LON_FLY=-7  LHR_INDEX=+91  TIDE_SWING=+28  WX_SUM=+39  TIDE_SPOT=+100  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0) | ExchangePnL=-49165.0
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+10:51:45 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3664; SELL x2 @ 3732; BUY x1 @ 3631; SELL x1 @ 3765
+10:51:45 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+10:51:46 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+10:51:47 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+10:51:47 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+10:51:48 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+10:51:49 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+10:51:50 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+10:51:50 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+10:55:09 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+10:55:50 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+10:55:51 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+10:55:51 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+10:55:52 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+10:55:52 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+10:55:53 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3664; LON_FLY SELL x2 @ 3732
+10:55:53 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+10:55:54 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3631; LON_FLY SELL x1 @ 3765
+10:55:54 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+10:55:54 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1311e9df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:55:54 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+10:55:54 [WARNING] algothon.data: Weather fetch failed: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.5074&longitude=-0.1278&minutely_15=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Ccloud_cover%2Cvisibility&past_minutely_15=96&forecast_minutely_15=96&timezone=Europe%2FLondon (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x13036aa20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:55:54 [WARNING] algothon.data: Thames fetch failed: HTTPSConnectionPool(host='environment.data.gov.uk', port=443): Max retries exceeded with url: /flood-monitoring/id/measures/0006-level-tidal_level-i-15_min-mAOD/readings?_sorted=&_limit=200 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107080320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:55:54 [WARNING] algothon.data: Flights fetch failed: HTTPSConnectionPool(host='aerodatabox.p.rapidapi.com', port=443): Max retries exceeded with url: /flights/airports/iata/LHR?offsetMinutes=-720&durationMinutes=720&direction=Both (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x111fb0dd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:55:54 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+10:55:54 [INFO] algothon.bot:   LHR_COUNT    FV=    1614  conf=0.50
+10:55:54 [INFO] algothon.bot:   LHR_INDEX    FV=     708  conf=0.30
+10:55:54 [INFO] algothon.bot:   LON_ETF      FV=    8847  conf=0.50
+10:55:54 [INFO] algothon.bot:   LON_FLY      FV=    3685  conf=0.30
+10:55:54 [INFO] algothon.bot:   TIDE_SPOT    FV=    2668  conf=0.85
+10:55:54 [INFO] algothon.bot:   TIDE_SWING   FV=     518  conf=0.86
+10:55:54 [INFO] algothon.bot:   WX_SPOT      FV=    4565  conf=0.95
+10:55:54 [INFO] algothon.bot:   WX_SUM       FV=    3284  conf=0.88
+10:55:54 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13699cf80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:55:54 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x131117e00>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+10:55:54 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3652; SELL x2 @ 3720; BUY x1 @ 3619; SELL x1 @ 3753
+10:55:54 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+10:55:54 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+10:55:55 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+10:55:55 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:08:53 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:08:53 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:08:54 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:08:54 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 4/9
+11:08:55 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:08:55 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+11:08:56 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:08:56 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+11:08:57 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:08:57 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+11:08:58 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3652; LON_FLY SELL x2 @ 3720
+11:08:58 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+11:08:59 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3619; LON_FLY SELL x1 @ 3753
+11:08:59 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+11:08:59 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x136f8b860>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:08:59 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+11:08:59 [WARNING] algothon.data: Weather fetch failed: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.5074&longitude=-0.1278&minutely_15=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Ccloud_cover%2Cvisibility&past_minutely_15=96&forecast_minutely_15=96&timezone=Europe%2FLondon (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x111f1a3f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:08:59 [WARNING] algothon.data: Thames fetch failed: HTTPSConnectionPool(host='environment.data.gov.uk', port=443): Max retries exceeded with url: /flood-monitoring/id/measures/0006-level-tidal_level-i-15_min-mAOD/readings?_sorted=&_limit=200 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x13036a780>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:08:59 [WARNING] algothon.data: Flights fetch failed: HTTPSConnectionPool(host='aerodatabox.p.rapidapi.com', port=443): Max retries exceeded with url: /flights/airports/iata/LHR?offsetMinutes=-720&durationMinutes=720&direction=Both (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x111ff42f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:08:59 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+11:08:59 [INFO] algothon.bot:   LHR_COUNT    FV=    1614  conf=0.50
+11:08:59 [INFO] algothon.bot:   LHR_INDEX    FV=     708  conf=0.30
+11:08:59 [INFO] algothon.bot:   LON_ETF      FV=    8847  conf=0.50
+11:08:59 [INFO] algothon.bot:   LON_FLY      FV=    3695  conf=0.30
+11:08:59 [INFO] algothon.bot:   TIDE_SPOT    FV=    2668  conf=0.85
+11:08:59 [INFO] algothon.bot:   TIDE_SWING   FV=     518  conf=0.86
+11:08:59 [INFO] algothon.bot:   WX_SPOT      FV=    4565  conf=0.95
+11:08:59 [INFO] algothon.bot:   WX_SUM       FV=    3284  conf=0.88
+11:08:59 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x127e3a9f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:08:59 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111c4bb00>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:09:00 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3661; SELL x2 @ 3729; BUY x1 @ 3628; SELL x1 @ 3762
+11:09:00 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+11:09:00 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+11:09:01 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:09:01 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:09:02 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:09:02 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:09:03 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:09:03 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 4/9
+11:09:04 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:09:04 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+11:09:05 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:09:05 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+11:09:06 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:09:06 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+11:10:52 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3661; LON_FLY SELL x2 @ 3729
+11:10:52 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+11:10:53 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3628; LON_FLY SELL x1 @ 3762
+11:10:53 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+11:10:53 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1369cec90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:10:53 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+11:10:53 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111c48ef0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:10:53 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13041c950>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:10:53 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3661; SELL x2 @ 3729; BUY x1 @ 3628; SELL x1 @ 3762
+11:10:53 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+11:10:53 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+11:10:54 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:10:54 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:10:56 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:10:56 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:10:57 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:10:57 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 4/9
+11:10:58 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:10:58 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+11:10:59 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:10:59 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+11:11:00 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:11:00 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+11:11:01 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3661; LON_FLY SELL x2 @ 3729
+11:11:01 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+11:11:02 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3628; LON_FLY SELL x1 @ 3762
+11:11:02 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+11:11:02 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x131815640>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:02 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+11:11:02 [WARNING] algothon.data: Weather fetch failed: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.5074&longitude=-0.1278&minutely_15=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Ccloud_cover%2Cvisibility&past_minutely_15=96&forecast_minutely_15=96&timezone=Europe%2FLondon (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x13036a7e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:02 [WARNING] algothon.data: Thames fetch failed: HTTPSConnectionPool(host='environment.data.gov.uk', port=443): Max retries exceeded with url: /flood-monitoring/id/measures/0006-level-tidal_level-i-15_min-mAOD/readings?_sorted=&_limit=200 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1310d28d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:02 [WARNING] algothon.data: Flights fetch failed: HTTPSConnectionPool(host='aerodatabox.p.rapidapi.com', port=443): Max retries exceeded with url: /flights/airports/iata/LHR?offsetMinutes=-720&durationMinutes=720&direction=Both (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x131a504d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:02 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+11:11:02 [INFO] algothon.bot:   LHR_COUNT    FV=    1614  conf=0.50
+11:11:02 [INFO] algothon.bot:   LHR_INDEX    FV=     708  conf=0.30
+11:11:02 [INFO] algothon.bot:   LON_ETF      FV=    8847  conf=0.50
+11:11:02 [INFO] algothon.bot:   LON_FLY      FV=    3702  conf=0.30
+11:11:02 [INFO] algothon.bot:   TIDE_SPOT    FV=    2668  conf=0.85
+11:11:02 [INFO] algothon.bot:   TIDE_SWING   FV=     518  conf=0.86
+11:11:02 [INFO] algothon.bot:   WX_SPOT      FV=    4565  conf=0.95
+11:11:02 [INFO] algothon.bot:   WX_SUM       FV=    3284  conf=0.88
+11:11:02 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1369cf110>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:02 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1369cf1a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:11:02 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3669; SELL x2 @ 3736; BUY x1 @ 3635; SELL x1 @ 3770
+11:11:02 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+11:11:02 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+11:11:03 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:11:03 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:11:04 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:11:04 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:11:05 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:11:05 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 4/9
+11:11:07 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:11:07 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+11:11:08 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:11:08 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+11:11:09 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:11:09 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+11:11:55 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3669; LON_FLY SELL x2 @ 3736
+11:11:55 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+11:11:56 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3635; LON_FLY SELL x1 @ 3770
+11:11:56 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+11:11:56 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13699cf80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:56 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+11:11:56 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x131117e30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:56 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10786f350>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:11:57 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3669; SELL x2 @ 3736; BUY x1 @ 3635; SELL x1 @ 3770
+11:11:57 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+11:11:57 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+11:11:58 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:11:58 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:11:59 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:11:59 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:12:00 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:12:00 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 4/9
+11:12:01 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:12:01 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+11:12:02 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:12:02 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+11:12:03 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:12:03 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+11:12:04 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3669; LON_FLY SELL x2 @ 3736
+11:12:04 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+11:12:05 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3635; LON_FLY SELL x1 @ 3770
+11:12:05 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+11:12:05 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111bf6240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:12:05 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+11:12:05 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x131459460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:12:05 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x127a4cce0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:12:05 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3669; SELL x2 @ 3736; BUY x1 @ 3635; SELL x1 @ 3770
+11:12:05 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+11:12:05 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+11:12:06 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:12:06 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:12:07 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:12:08 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:12:09 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:12:09 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 4/9
+11:12:10 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:12:10 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 5/9
+11:12:11 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:12:11 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 6/9
+11:12:12 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:12:12 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 7/9
+11:12:13 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3669; LON_FLY SELL x2 @ 3736
+11:12:13 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 8/9
+11:12:14 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3635; LON_FLY SELL x1 @ 3770
+11:12:14 [INFO] algothon.bot: Exchange acknowledged 0/2 orders in batch 9/9
+11:12:14 [WARNING] algothon.bot: Exchange PnL fetch failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/profit/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x136933b60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:12:14 [INFO] algothon.bot: Positions: LHR_COUNT=+97  LON_FLY=-3  LHR_INDEX=+93  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+0.0 (U=+0.0, R=+0.0)
+11:12:14 [WARNING] algothon.bot: Position sync failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/position/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111ff6510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:12:14 [WARNING] algothon.bot: Cancel failed: HTTPConnectionPool(host='ec2-52-19-74-159.eu-west-1.compute.amazonaws.com', port=80): Max retries exceeded with url: /api/order/current-user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x131888200>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2681
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 523; BUY x1 @ 505; SELL x1 @ 529
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4559; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3270; SELL x1 @ 3294
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:12:14 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 4 orders: BUY x3 @ 3669; SELL x2 @ 3736; BUY x1 @ 3635; SELL x1 @ 3770
+11:12:14 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2681
+11:12:14 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 1/9
+11:12:15 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 523; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:12:15 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 2/9
+11:12:16 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4559; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:12:16 [INFO] algothon.bot: Exchange acknowledged 0/4 orders in batch 3/9
+11:12:17 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3270; WX_SUM SELL x1 @ 3294
+11:12:19 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+11:12:20 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:12:22 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 1x @ 1198
+11:12:23 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 1x @ 1207
+11:12:23 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 5/9
+11:12:24 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:12:26 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 152
+11:12:26 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 152
+11:12:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+11:12:27 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:12:29 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+11:12:30 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x3 @ 3669; LON_FLY SELL x2 @ 3736
+11:12:32 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 3x @ 3317.0
+11:12:32 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+11:12:33 [INFO] algothon.bot: Sending batch 9/9 (2 orders): LON_FLY BUY x1 @ 3635; LON_FLY SELL x1 @ 3770
+11:12:34 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 1x @ 3317.0
+11:12:34 [INFO] algothon.bot: Exchange acknowledged 2/2 orders in batch 9/9
+11:12:35 [INFO] algothon.bot: Positions: LHR_COUNT=+99  LON_FLY=+1  LHR_INDEX=+95  TIDE_SWING=+27  WX_SUM=+39  TIDE_SPOT=+93  WX_SPOT=-46  LON_ETF=+100 | LocalPnL=+130166.5 (U=+130166.5, R=+0.0) | ExchangePnL=-47687.0
+11:12:40 [INFO] algothon.options: OPT: Buy FLY @ 3295.0 (model=3696)
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2654; SELL x5 @ 2673; BUY x1 @ 2645; SELL x2 @ 2682
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 511; SELL x3 @ 524; BUY x1 @ 505; SELL x1 @ 529
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4558; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3271; SELL x1 @ 3294
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1582; SELL x5 @ 1623; BUY x1 @ 1562; SELL x2 @ 1643
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 668; SELL x3 @ 719; BUY x1 @ 643; SELL x1 @ 744
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8806; SELL x5 @ 8857; BUY x1 @ 8781; SELL x2 @ 8882; BUY x1 @ 8756; SELL x1 @ 8907
+11:12:40 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x2 @ 3668; SELL x3 @ 3735; BUY x1 @ 3634; SELL x1 @ 3769; BUY x3 @ 3295.0
+11:12:40 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2654; TIDE_SPOT SELL x5 @ 2673; TIDE_SPOT BUY x1 @ 2645; TIDE_SPOT SELL x2 @ 2682
+11:12:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  3x @ 2953
+11:12:41 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+11:12:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  1x @ 2941
+11:12:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  1x @ 2941
+11:12:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  1.0x @ 2923.0
+11:12:41 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] FILL: SOLD  1.0x @ 2923.0
+11:12:42 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 511; TIDE_SWING SELL x3 @ 524; TIDE_SWING BUY x1 @ 505; TIDE_SWING SELL x1 @ 529
+11:12:44 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  1x @ 540
+11:12:44 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] FILL: SOLD  3x @ 540
+11:12:44 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+11:12:45 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4558; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:12:47 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: BOUGHT 5x @ 4556.0
+11:12:47 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+11:12:48 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3271; WX_SUM SELL x1 @ 3294
+11:12:51 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+11:12:52 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1582; LHR_COUNT SELL x5 @ 1623; LHR_COUNT BUY x1 @ 1562; LHR_COUNT SELL x2 @ 1643
+11:12:54 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] FILL: BOUGHT 1x @ 1207
+11:12:54 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 5/9
+11:12:55 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 668; LHR_INDEX SELL x3 @ 719; LHR_INDEX BUY x1 @ 643; LHR_INDEX SELL x1 @ 744
+11:12:57 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 154
+11:12:57 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] FILL: BOUGHT 1x @ 154
+11:12:57 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+11:12:58 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8806; LON_ETF SELL x5 @ 8857; LON_ETF BUY x1 @ 8781; LON_ETF SELL x2 @ 8882
+11:13:00 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  2x @ 4575
+11:13:00 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+11:13:01 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8756; LON_ETF SELL x1 @ 8907; LON_FLY BUY x2 @ 3668; LON_FLY SELL x3 @ 3735
+11:13:03 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 2x @ 3317.0
+11:13:03 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+11:13:04 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 3634; LON_FLY SELL x1 @ 3769; LON_FLY BUY x3 @ 3295.0
+11:13:04 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] FILL: SOLD  1x @ 4583
+11:13:06 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 1x @ 3121.0
+11:13:06 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] FILL: BOUGHT 3x @ 3121.0
+11:13:06 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+11:13:07 [INFO] algothon.bot: Positions: LHR_COUNT=+100  LON_FLY=+7  LHR_INDEX=+97  TIDE_SWING=+19  WX_SUM=+35  TIDE_SPOT=+79  WX_SPOT=-42  LON_ETF=+100 | LocalPnL=-48280.0 (U=-48280.0, R=+0.0) | ExchangePnL=-51017.0
+11:13:07 [INFO] algothon.data: Weather: 192 rows fetched
+11:13:13 [INFO] algothon.data: Thames: 200 readings fetched
+11:13:13 [INFO] algothon.data: Flights: 996 arrivals, 731 departures
+11:13:13 [INFO] algothon.bot: ─── Fair Values ───────────────────────────────
+11:13:13 [INFO] algothon.bot:   LHR_COUNT    FV=    1727  conf=0.50
+11:13:13 [INFO] algothon.bot:   LHR_INDEX    FV=     737  conf=0.30
+11:13:13 [INFO] algothon.bot:   LON_ETF      FV=    8931  conf=0.50
+11:13:13 [INFO] algothon.bot:   LON_FLY      FV=    3868  conf=0.30
+11:13:13 [INFO] algothon.bot:   TIDE_SPOT    FV=    2640  conf=0.86
+11:13:13 [INFO] algothon.bot:   TIDE_SWING   FV=     522  conf=0.87
+11:13:13 [INFO] algothon.bot:   WX_SPOT      FV=    4565  conf=0.95
+11:13:13 [INFO] algothon.bot:   WX_SUM       FV=    3284  conf=0.88
+11:13:18 [INFO] algothon.options: OPT: Buy FLY @ 3103.0 (model=3862)
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2626; SELL x5 @ 2645; BUY x1 @ 2618; SELL x2 @ 2653
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 515; SELL x3 @ 528; BUY x1 @ 509; SELL x1 @ 533
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4558; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3271; SELL x1 @ 3294
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1695; SELL x5 @ 1735; BUY x1 @ 1675; SELL x2 @ 1755
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 696; SELL x3 @ 747; BUY x1 @ 671; SELL x1 @ 772
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8891; SELL x5 @ 8942; BUY x1 @ 8866; SELL x2 @ 8967; BUY x1 @ 8841; SELL x1 @ 8992
+11:13:18 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x2 @ 3833; SELL x3 @ 3900; BUY x1 @ 3799; SELL x1 @ 3934; BUY x3 @ 3103.0
+11:13:18 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2626; TIDE_SPOT SELL x5 @ 2645; TIDE_SPOT BUY x1 @ 2618; TIDE_SPOT SELL x2 @ 2653
+11:13:20 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 1/9
+11:13:21 [INFO] algothon.bot: Sending batch 2/9 (4 orders): TIDE_SWING BUY x2 @ 515; TIDE_SWING SELL x3 @ 528; TIDE_SWING BUY x1 @ 509; TIDE_SWING SELL x1 @ 533
+11:13:23 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 2/9
+11:13:24 [INFO] algothon.bot: Sending batch 3/9 (4 orders): WX_SPOT BUY x5 @ 4558; WX_SPOT SELL x2 @ 4575; WX_SPOT BUY x2 @ 4551; WX_SPOT SELL x1 @ 4583
+11:13:26 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 3/9
+11:13:27 [INFO] algothon.bot: Sending batch 4/9 (4 orders): WX_SUM BUY x1 @ 3276; WX_SUM SELL x3 @ 3288; WX_SUM BUY x1 @ 3271; WX_SUM SELL x1 @ 3294
+11:13:29 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 4/9
+11:13:30 [INFO] algothon.bot: Sending batch 5/9 (4 orders): LHR_COUNT BUY x1 @ 1695; LHR_COUNT SELL x5 @ 1735; LHR_COUNT BUY x1 @ 1675; LHR_COUNT SELL x2 @ 1755
+11:13:31 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 5/9
+11:13:32 [INFO] algothon.bot: Sending batch 6/9 (4 orders): LHR_INDEX BUY x1 @ 696; LHR_INDEX SELL x3 @ 747; LHR_INDEX BUY x1 @ 671; LHR_INDEX SELL x1 @ 772
+11:13:33 [INFO] algothon.bot: Exchange acknowledged 4/4 orders in batch 6/9
+11:13:34 [INFO] algothon.bot: Sending batch 7/9 (4 orders): LON_ETF BUY x1 @ 8891; LON_ETF SELL x5 @ 8942; LON_ETF BUY x1 @ 8866; LON_ETF SELL x2 @ 8967
+11:13:36 [INFO] algothon.bot: Exchange acknowledged 2/4 orders in batch 7/9
+11:13:37 [INFO] algothon.bot: Sending batch 8/9 (4 orders): LON_ETF BUY x1 @ 8841; LON_ETF SELL x1 @ 8992; LON_FLY BUY x2 @ 3833; LON_FLY SELL x3 @ 3900
+11:13:40 [INFO] algothon.bot: Exchange acknowledged 3/4 orders in batch 8/9
+11:13:41 [INFO] algothon.bot: Sending batch 9/9 (3 orders): LON_FLY BUY x1 @ 3799; LON_FLY SELL x1 @ 3934; LON_FLY BUY x3 @ 3103.0
+11:13:44 [INFO] algothon.bot: Exchange acknowledged 3/3 orders in batch 9/9
+11:13:44 [INFO] algothon.bot: Positions: LHR_COUNT=+100  LON_FLY=+7  LHR_INDEX=+97  TIDE_SWING=+19  WX_SUM=+35  TIDE_SPOT=+79  WX_SPOT=-42  LON_ETF=+100 | LocalPnL=-48739.0 (U=-48739.0, R=+0.0) | ExchangePnL=-47840.0
+11:13:49 [INFO] algothon.options: OPT: Buy FLY @ 3103.0 (model=3866)
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: TIDE_SPOT] Prepared 4 orders: BUY x1 @ 2627; SELL x5 @ 2645; BUY x1 @ 2618; SELL x2 @ 2654
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: TIDE_SWING] Prepared 4 orders: BUY x2 @ 515; SELL x3 @ 528; BUY x1 @ 510; SELL x1 @ 534
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: WX_SPOT] Prepared 4 orders: BUY x5 @ 4558; SELL x2 @ 4575; BUY x2 @ 4551; SELL x1 @ 4583
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: WX_SUM] Prepared 4 orders: BUY x1 @ 3276; SELL x3 @ 3288; BUY x1 @ 3271; SELL x1 @ 3294
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: LHR_COUNT] Prepared 4 orders: BUY x1 @ 1695; SELL x5 @ 1735; BUY x1 @ 1675; SELL x2 @ 1755
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: LHR_INDEX] Prepared 4 orders: BUY x1 @ 696; SELL x3 @ 747; BUY x1 @ 671; SELL x1 @ 772
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: LON_ETF] Prepared 6 orders: BUY x1 @ 8891; SELL x5 @ 8942; BUY x1 @ 8866; SELL x2 @ 8967; BUY x1 @ 8841; SELL x1 @ 8992
+11:13:49 [INFO] algothon.bot: [INSTRUMENT: LON_FLY] Prepared 5 orders: BUY x2 @ 3832; SELL x3 @ 3900; BUY x1 @ 3799; SELL x1 @ 3933; BUY x3 @ 3103.0
+11:13:49 [INFO] algothon.bot: Sending batch 1/9 (4 orders): TIDE_SPOT BUY x1 @ 2627; TIDE_SPOT SELL x5 @ 2645; TIDE_SPOT BUY x1 @ 2618; TIDE_SPOT SELL x2 @ 2654
+11:13:50 [INFO] algothon.bot: Keyboard interrupt received
+11:13:50 [INFO] algothon.bot: Shutting down...
+11:13:59 [INFO] algothon.bot: Bot stopped.

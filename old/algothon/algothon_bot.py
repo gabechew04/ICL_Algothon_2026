@@ -1090,9 +1090,9 @@ class AlgothonBot(BaseBot):
 if __name__ == "__main__":
     from datetime import datetime, timedelta, timezone
 
-    EXCHANGE_URL = "http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/"
-    USERNAME = "finalhamza"
-    PASSWORD = "finalhamza"
+    EXCHANGE_URL = "http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/"
+    USERNAME = "stopLossIOQ_1"
+    PASSWORD = "stopLOSSimccmi"
     AERODATABOX_KEY = "0a7ff9f16fmsh54fb7da32af7310p12b89fjsn800a543a8628"
 
     london_offset = timezone(timedelta(hours=0))
